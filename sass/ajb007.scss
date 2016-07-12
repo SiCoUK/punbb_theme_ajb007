@@ -2,4 +2,546 @@
 @import "base";
 
 // Import punBB Oxygen Theme
-@import "Oxygen-1.4.3/_Oxygen.min.scss";
+@import "_Oxygen.scss";
+
+/*body {
+    background: $color_background;
+    color: $color_text;
+}
+
+.gen-content,
+.main-content {
+    background: $color_background;
+    border-color: $color_border;
+    border-bottom-color: $color_border;
+}
+
+.main-title {
+    font-size: initial;
+    left: auto;
+    line-height: initial;
+    position: relative;
+    text-indent: 0;
+    visibility: visible;
+    margin-bottom: 1em;
+}
+
+.crumbs {
+    padding: 0;
+}*/
+
+/* General colour scheme
+----------------------------------------------------------------*/
+
+body {
+    background: #000;
+    color: #e0e0e0;
+}
+
+.brd a:link, .brd a:visited {
+    color: #6699cc;
+}
+
+.brd p.feed a:link, .brd p.feed a:visited {
+    color: #DDDDDD;
+}
+
+.brd a:hover, .brd a:active, .brd a:focus,
+.brd p.feed a:hover, .brd p.feed a:active, .brd p.feed a:focus {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.brd .main-pagepost a:link, .brd .crumbs a:link,
+.brd .main-pagepost a:visited, .brd .crumbs a:visited {
+    text-decoration: underline;
+}
+
+.brd .main-pagepost a:hover, .brd .crumbs a:hover,
+.brd .main-pagepost a:active, .brd .crumbs a:active,
+.brd .main-pagepost a:focus, .brd .crumbs a:focus {
+    text-decoration: none;
+}
+
+.brd .gen-content, .brd .main-content {
+    background: #000;
+    border-color: #000;
+}
+
+/*.brd .main-pagepost {
+	background: #fff;
+	border-color: #DDE4EB;
+	}*/
+
+/*.brd .crumbs {
+	background: #fff;
+	border-color: #fff;
+	}*/
+
+
+.brd .main-item, .brd .main-item li, .brd .main-item div, .brd td {
+    border-color: #999;
+}
+
+.brd .main-item li.info-posts,
+.brd .main-item li.info-replies,
+.brd .main-item li.info-views,
+.brd .main-item li.info-topics {
+	}
+
+.brd .main-content .main-item .item-nav {
+	color: #888;
+	}
+
+.brd .main-content .sticky {
+	background: #333;
+	}
+
+.brd .main-content .main-item .hn .item-status em.sticky ,
+.brd .main-content .main-item .hn .item-status em.closed{
+	color: #999;
+	font-weight: bold;
+	}
+
+.brd .main-content .main-item .hn .item-status em.moved {
+	color: #666;
+	}
+
+.brd .post * {
+	border-color: #999;
+	}
+
+.brd .post {
+	/*border-color: #999;*/
+	border-top-color: #999;
+	border-bottom-color: #ccc;
+	}
+
+#topic-review .firstpost, .brd .singlepost {
+	border-top-color: #999;
+	border-bottom-color: #999;
+	}
+
+.brd .post {
+	background: #292929;
+	}
+
+/*.brd .posthead, .brd .postbody, .brd .post-options {
+	background: #000;
+	}*/
+
+/*.brd .posthead .hn {
+	background: #000;
+	}*/
+
+.brd .posthead .post-title small {
+	color: #999;
+	}
+
+.brd .online .userstatus span {
+	border-color: #517CA1;
+	}
+
+.brd .ct-box, .brd .ct-set, .brd .ct-group, .brd .frm-group {
+	border-color: #000;
+	}
+
+.brd .admin-page .ct-box {
+    color: #000;
+    background: #FEFFE6;
+}
+
+.brd .admin-page .ct-set .ct-box, .brd .report {
+	background: #999;
+	}
+
+/*.brd .admin-page .warn-set .warn-box {
+	background: #000;
+	}*/
+
+.ct-legend {
+    color: #e0e0e0;
+}
+
+.extension .ct-legend {
+    color: #000;
+}  
+
+.brd .main-frm .ct-group, .brd #brd-announcement {
+	background: #000;
+	}
+
+.brd .main-content .info-box {
+    color: #000;
+    background: #999;
+}
+
+/*.brd .main-extensions .extension, .brd .main-hotfixes .hotfix {
+	background: #999;
+	}*/
+
+.brd .main-extensions .disabled, .brd .main-hotfixes .disabled {
+	background: #FFFFE1;
+	}
+
+.brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box, .brd #admin-alerts {
+	background: #999;
+	border-color: #999;
+        color: #000;
+	}
+
+/*.brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box {
+	border-color: #999;
+	}*/
+
+.brd ul.info-list li,
+.brd ul.error-list li {
+	color: #000;
+	}
+
+.brd ul.info-list li span,
+.brd ul.error-list li span {
+	color: #000;
+	}
+
+.brd ul li strong {
+	color: #999;
+	}
+
+/*.brd .user-box {
+	background: #F4F9FD;
+	}*/
+/*.brd .ct-box .hn, .brd .ct-box .sig-demo {
+	border-color: #DBE0E4;
+	color: #e0e0e0;
+	}*/
+
+.brd .error-box .hn {
+	color: #333;
+	}
+
+.brd .help-box {
+	background: #292929;
+	border-color: #999; 
+	}
+
+.brd .frm-buttons, .brd .hotfix .options {
+	border-color: #DBE0E4;
+	}
+
+.brd .checklist {
+	background: #fff;
+	border-color: #ccc;
+	}
+
+/*.brd label, .brd .aslabel, .brd .mf-set legend, .brd .ct-legend * {
+	color: #e0e0e0;
+	}*/
+
+.brd .paging * {
+	border-color: #dedfdf;
+	}
+
+
+.brd .required label em, .brd #req-msg em, .brd .warn strong, .brd .important strong {
+	color: #b42000;
+	}
+
+.brd .entry-content .quotebox, .brd .entry-content .codebox {
+	background: #2F2F2F;
+	/*border-color: #ddd;*/
+	}
+
+#brd-announcement .userbox {
+	background: #F4F9FD none repeat scroll 0 0;
+	}
+
+.brd .main-content .main-item .hn .posted-mark {
+	color: #99C;
+	}
+
+/* Menus
+----------------------------------------------------------------*/
+
+#brd-navlinks {
+	background: #999;
+	border-color: #999;
+	color: #000;
+	}
+
+#brd-navlinks a:link, #brd-navlinks a:visited {
+	color: #000;
+	text-decoration: underline;
+	}
+
+#brd-navlinks a:hover, #brd-navlinks a:active, #brd-navlinks a:focus {
+	color: #000;
+	text-decoration: none;
+	}
+
+.brd .main-options, .brd .main-options span {
+	background: #999;
+	}
+
+.brd .main-menu, .brd .admin-menu {
+	background: #4C6174;
+	}
+
+.brd .admin-submenu {
+	background: #000;
+	border-color: #000;
+	}
+
+.brd .main-menu a:link,
+.brd .main-menu a:visited,
+.brd .admin-menu a:link,
+.brd .admin-menu a:visited {
+	color: #ddd;
+	text-decoration: none;
+	}
+
+.brd .main-menu a:hover,
+.brd .main-menu a:active,
+.brd .main-menu a:focus,
+.brd .admin-menu a:hover,
+.brd .admin-menu a:active,
+.brd .admin-menu a:focus {
+	text-decoration: underline;
+	color: #fff;
+	}
+
+.brd .main-menu li.active a:hover,
+.brd .main-menu li.active a:active,
+.brd .main-menu li.active a:focus,
+.brd .main-menu li.active a:visited,
+.brd .admin-menu li.active a:hover,
+.brd .admin-menu li.active a:active,
+.brd .admin-menu li.active a:focus,
+.brd .admin-menu li.active a:visited {
+	text-decoration: none;
+	}
+
+.brd .admin-submenu li.active a {
+	text-decoration: none;
+	}
+
+.brd .main-menu li.active a {
+	color: #fff;
+	}
+
+.brd .admin-menu li.active a {
+	color: #eef;
+	}
+
+#brd-admod #alert a {
+	color: yellow;
+	}
+
+/* Logo and Headings
+----------------------------------------------------------------*/
+
+#brd-head {
+    background: #4C6174 url(/public/assets/images/james-bond-cards.png) right no-repeat;
+	color: #ddd;
+	border-color: #4C6174;
+	}
+
+#brd-head a, #brd-head a:link, #brd-head a:visited {
+	color: #fff;
+	}
+
+.brd .main-head, .brd .main-foot {
+	background: #4C6174;
+	color: #ddd;
+	border-color: #4C6174;
+	}
+
+.brd #brd-announcement h1 {
+	border-color: #BBBBBB;
+	}
+
+.brd .main-subhead {
+	border-color: #999999;
+	background: #999999;
+	color: #000;
+	}
+
+.brd .column-title {
+	border-color: #F4F4F4 #F4F4F4 #CBD1D8 #F4F4F4;
+	background: #F4F4F4;
+	}
+
+.brd .group-head {
+	background: #EDF1F5;
+	border-color: #DBE0E4;
+	}
+
+.brd .content-head .hn {
+	border-color: #DBE0E4;
+	/*color: #666;*/
+	}
+
+.brd .main-head a:link, .brd .main-head a:visited,
+.brd .main-foot .options a:link, .brd .main-foot .options a:visited {
+	color: #ccc;
+	}
+
+.brd .main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
+.brd .main-foot .options a:hover, .brd .main-foot .options a:active, .brd .main-foot .options a:focus {
+	color: #fff;
+	}
+
+.brd th {
+	background: #999;
+	color: #000;
+	}
+
+/*.brd .main-frm .ct-group td {
+	background: #FBFBFB;
+	}*/
+
+#extensions-used {
+	border-bottom-color: #999;
+}
+
+
+/* Status indicators
+----------------------------------------------------------------*/
+
+.brd .main-content .main-item .icon {
+	border-color: #EDF1F5 #DDE0E4 #C6CBD3 #BABFC6;
+	}
+
+.brd .main-content .redirect .icon {
+	border-color: #f4f4f4 #f4f4f4 #f4f4f4 #f4f4f4;
+	}
+
+.brd .main-content .sticky .icon {
+	border-color: #D7E5F3 #C3CFDC #9FB3C7 #90A2B4;
+	}
+
+.brd .main-content .closed .icon {
+	border-color: #ACACAC #979797 #898989 #7A7A7A;
+	}
+
+.brd .main-content .sticky .closed .icon {
+	border-color: #D7E5F3 #C3CFDC #898989 #7A7A7A;
+	}
+
+.brd .main-content .new .icon {
+	border-color: #2B75AD #235E8C #1F537B #266799;
+	}
+
+
+/* Multi Checkbox Widget
+-------------------------------------------------------------*/
+
+.brd .checklist .checklist-item label:hover {
+    background-color: #EDF1F5;
+}
+
+/* SiCo Custom Colours
+-------------------------------------------------------------*/
+.brd .main-content .main-item li.info-lastpost cite {
+	color: #999;
+}
+
+#brd-stats, #brd-online, #brd-about {
+	color: #999;
+	background-color: #474747;
+	border-color: #474747;
+}
+
+#brd-qpost, #post-form {
+ 	color: #000!important;
+	background-color: #999;
+	border-color: #999;
+}
+
+.brd .admin-page .ct-set .ct-box a:link, .brd .admin-page .ct-set .ct-box a:visited,
+.brd .content-options a:link, .brd .content-options a:visited,
+.brd .sf-set a:link, .brd .sf-set a:visited,
+#post-form .ct-options a:link, #post-form .ct-options a:visited,
+.brd .extension .options a:link, .brd .extension .options a:visited {
+	color: #000;
+	text-decoration: underline;
+	}
+
+.brd .admin-page .ct-set .ct-box a:hover, .brd .admin-page .ct-set .ct-box a:active, .brd .admin-page .ct-set .ct-box a:focus,
+.brd .content-options a:hover, .brd .content-options a:active, .brd .content-options a:focus,
+.brd .sf-set  a:hover, .brd .sf-set a:focus,
+#post-form .ct-options  a:hover, #post-form .ct-options a:focus,
+.brd .extension .options a:hover, .brd .extension .options a:focus  {
+	color: #000;
+	text-decoration: none;
+	}
+
+#topic-review, #post-preview {
+	border-color: #999;
+}
+
+#brd-stats .brd .ct-box ul li strong,
+.info-box ul li strong {
+	color: #000;
+}
+
+.brd .checklist legend,
+.brd .checklist label {
+	color: #000;
+}
+
+/*p.important,
+p.warn,
+.brd .main-content .info-box {
+	color: #000;
+}*/
+
+.brd .main-content {
+	background: #000;
+	border-color: #999;
+	}
+
+.brd #brd-announcement {
+	background-color: #333;
+	border-color:  #999;
+}
+
+.brd .entry-content .quotebox {
+	color: #999;
+}
+
+a:link.permalink, a:visited.permalink {
+	color: #999;
+	text-decoration: none;
+	}
+
+a:hover.permalink, a:active.permalink, a:focus.permalink {
+	text-decoration: underline;
+	}
+
+span.item-starter,
+div.sig-content {
+	color: #999;
+}
+
+/* Pun PM
+-------------------------------------------------------------*/
+
+div.pun_pm_msg {
+	border: solid 1px #999;
+}
+
+/* BBcode Extended
+-------------------------------------------------------------*/
+
+.spoiler>strong {
+	color:#999;
+	background:#000;
+	
+}
+
+div.spoiler {
+	background-color: #000000;
+	border-left: 2px solid #999;
+	color: #000000;
+}
