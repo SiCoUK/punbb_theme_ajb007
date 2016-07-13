@@ -4609,22 +4609,32 @@ body {
 }
 
 /* line 141, sass/ajb007.scss */
+.posthead, .postbody, .post-options {
+  background: #292929;
+}
+
+/* line 145, sass/ajb007.scss */
+.posthead .hn {
+  background: none;
+}
+
+/* line 149, sass/ajb007.scss */
 .brd .online .userstatus span {
   border-color: #517CA1;
 }
 
-/* line 145, sass/ajb007.scss */
+/* line 153, sass/ajb007.scss */
 .brd .ct-box, .brd .ct-set, .brd .ct-group, .brd .frm-group {
   border-color: #000;
 }
 
-/* line 149, sass/ajb007.scss */
+/* line 157, sass/ajb007.scss */
 .brd .admin-page .ct-box {
   color: #000;
   background: #FEFFE6;
 }
 
-/* line 154, sass/ajb007.scss */
+/* line 162, sass/ajb007.scss */
 .brd .admin-page .ct-set .ct-box, .brd .report {
   background: #999;
 }
@@ -4632,22 +4642,27 @@ body {
 /*.brd .admin-page .warn-set .warn-box {
 	background: #000;
 	}*/
-/* line 162, sass/ajb007.scss */
+/* line 170, sass/ajb007.scss */
 .ct-legend {
   color: #e0e0e0;
 }
 
-/* line 166, sass/ajb007.scss */
+/* line 174, sass/ajb007.scss */
 .extension .ct-legend {
   color: #000;
 }
 
-/* line 170, sass/ajb007.scss */
+/* line 178, sass/ajb007.scss */
 .brd .main-frm .ct-group, .brd #brd-announcement {
   background: #000;
 }
 
-/* line 174, sass/ajb007.scss */
+/* line 182, sass/ajb007.scss */
+.main-frm .ct-group td {
+  background: #000000 none repeat scroll 0 0;
+}
+
+/* line 186, sass/ajb007.scss */
 .brd .main-content .info-box {
   color: #000;
   background: #999;
@@ -4656,12 +4671,12 @@ body {
 /*.brd .main-extensions .extension, .brd .main-hotfixes .hotfix {
 	background: #999;
 	}*/
-/* line 183, sass/ajb007.scss */
+/* line 195, sass/ajb007.scss */
 .brd .main-extensions .disabled, .brd .main-hotfixes .disabled {
   background: #FFFFE1;
 }
 
-/* line 187, sass/ajb007.scss */
+/* line 199, sass/ajb007.scss */
 .brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box, .brd #admin-alerts {
   background: #999;
   border-color: #999;
@@ -4671,47 +4686,49 @@ body {
 /*.brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box {
 	border-color: #999;
 	}*/
-/* line 197, sass/ajb007.scss */
+/* line 209, sass/ajb007.scss */
 .brd ul.info-list li,
 .brd ul.error-list li {
   color: #000;
 }
 
-/* line 202, sass/ajb007.scss */
+/* line 214, sass/ajb007.scss */
 .brd ul.info-list li span,
 .brd ul.error-list li span {
   color: #000;
 }
 
-/* line 207, sass/ajb007.scss */
+/* line 219, sass/ajb007.scss */
 .brd ul li strong {
   color: #999;
 }
 
-/*.brd .user-box {
-	background: #F4F9FD;
-	}*/
+/* line 223, sass/ajb007.scss */
+.brd .user-box {
+  background: #F4F9FD;
+}
+
 /*.brd .ct-box .hn, .brd .ct-box .sig-demo {
 	border-color: #DBE0E4;
 	color: #e0e0e0;
 	}*/
-/* line 219, sass/ajb007.scss */
+/* line 231, sass/ajb007.scss */
 .brd .error-box .hn {
   color: #333;
 }
 
-/* line 223, sass/ajb007.scss */
+/* line 235, sass/ajb007.scss */
 .brd .help-box {
   background: #292929;
   border-color: #999;
 }
 
-/* line 228, sass/ajb007.scss */
+/* line 240, sass/ajb007.scss */
 .brd .frm-buttons, .brd .hotfix .options {
   border-color: #DBE0E4;
 }
 
-/* line 232, sass/ajb007.scss */
+/* line 244, sass/ajb007.scss */
 .brd .checklist {
   background: #fff;
   border-color: #ccc;
@@ -4720,70 +4737,70 @@ body {
 /*.brd label, .brd .aslabel, .brd .mf-set legend, .brd .ct-legend * {
 	color: #e0e0e0;
 	}*/
-/* line 241, sass/ajb007.scss */
+/* line 253, sass/ajb007.scss */
 .brd .paging * {
   border-color: #dedfdf;
 }
 
-/* line 246, sass/ajb007.scss */
+/* line 258, sass/ajb007.scss */
 .brd .required label em, .brd #req-msg em, .brd .warn strong, .brd .important strong {
   color: #b42000;
 }
 
-/* line 250, sass/ajb007.scss */
+/* line 262, sass/ajb007.scss */
 .brd .entry-content .quotebox, .brd .entry-content .codebox {
   background: #2F2F2F;
   /*border-color: #ddd;*/
 }
 
-/* line 255, sass/ajb007.scss */
+/* line 267, sass/ajb007.scss */
 #brd-announcement .userbox {
   background: #F4F9FD none repeat scroll 0 0;
 }
 
-/* line 259, sass/ajb007.scss */
+/* line 271, sass/ajb007.scss */
 .brd .main-content .main-item .hn .posted-mark {
   color: #99C;
 }
 
 /* Menus
 ----------------------------------------------------------------*/
-/* line 266, sass/ajb007.scss */
+/* line 278, sass/ajb007.scss */
 #brd-navlinks {
   background: #999;
   border-color: #999;
   color: #000;
 }
 
-/* line 272, sass/ajb007.scss */
+/* line 284, sass/ajb007.scss */
 #brd-navlinks a:link, #brd-navlinks a:visited {
   color: #000;
   text-decoration: underline;
 }
 
-/* line 277, sass/ajb007.scss */
+/* line 289, sass/ajb007.scss */
 #brd-navlinks a:hover, #brd-navlinks a:active, #brd-navlinks a:focus {
   color: #000;
   text-decoration: none;
 }
 
-/* line 282, sass/ajb007.scss */
+/* line 294, sass/ajb007.scss */
 .brd .main-options, .brd .main-options span {
   background: #999;
 }
 
-/* line 286, sass/ajb007.scss */
+/* line 298, sass/ajb007.scss */
 .brd .main-menu, .brd .admin-menu {
   background: #4C6174;
 }
 
-/* line 290, sass/ajb007.scss */
+/* line 302, sass/ajb007.scss */
 .brd .admin-submenu {
   background: #000;
   border-color: #000;
 }
 
-/* line 295, sass/ajb007.scss */
+/* line 307, sass/ajb007.scss */
 .brd .main-menu a:link,
 .brd .main-menu a:visited,
 .brd .admin-menu a:link,
@@ -4792,7 +4809,7 @@ body {
   text-decoration: none;
 }
 
-/* line 303, sass/ajb007.scss */
+/* line 315, sass/ajb007.scss */
 .brd .main-menu a:hover,
 .brd .main-menu a:active,
 .brd .main-menu a:focus,
@@ -4803,7 +4820,7 @@ body {
   color: #fff;
 }
 
-/* line 313, sass/ajb007.scss */
+/* line 325, sass/ajb007.scss */
 .brd .main-menu li.active a:hover,
 .brd .main-menu li.active a:active,
 .brd .main-menu li.active a:focus,
@@ -4815,90 +4832,90 @@ body {
   text-decoration: none;
 }
 
-/* line 324, sass/ajb007.scss */
+/* line 336, sass/ajb007.scss */
 .brd .admin-submenu li.active a {
   text-decoration: none;
 }
 
-/* line 328, sass/ajb007.scss */
+/* line 340, sass/ajb007.scss */
 .brd .main-menu li.active a {
   color: #fff;
 }
 
-/* line 332, sass/ajb007.scss */
+/* line 344, sass/ajb007.scss */
 .brd .admin-menu li.active a {
   color: #eef;
 }
 
-/* line 336, sass/ajb007.scss */
+/* line 348, sass/ajb007.scss */
 #brd-admod #alert a {
   color: yellow;
 }
 
 /* Logo and Headings
 ----------------------------------------------------------------*/
-/* line 343, sass/ajb007.scss */
+/* line 355, sass/ajb007.scss */
 #brd-head {
   background: #4C6174 url(/public/assets/images/james-bond-cards.png) right no-repeat;
   color: #ddd;
   border-color: #4C6174;
 }
 
-/* line 349, sass/ajb007.scss */
+/* line 361, sass/ajb007.scss */
 #brd-head a, #brd-head a:link, #brd-head a:visited {
   color: #fff;
 }
 
-/* line 353, sass/ajb007.scss */
+/* line 365, sass/ajb007.scss */
 .brd .main-head, .brd .main-foot {
   background: #4C6174;
   color: #ddd;
   border-color: #4C6174;
 }
 
-/* line 359, sass/ajb007.scss */
+/* line 371, sass/ajb007.scss */
 .brd #brd-announcement h1 {
   border-color: #BBBBBB;
 }
 
-/* line 363, sass/ajb007.scss */
+/* line 375, sass/ajb007.scss */
 .brd .main-subhead {
   border-color: #999999;
   background: #999999;
   color: #000;
 }
 
-/* line 369, sass/ajb007.scss */
+/* line 381, sass/ajb007.scss */
 .brd .column-title {
   border-color: #F4F4F4 #F4F4F4 #CBD1D8 #F4F4F4;
   background: #F4F4F4;
 }
 
-/* line 374, sass/ajb007.scss */
+/* line 386, sass/ajb007.scss */
 .brd .group-head {
   background: #EDF1F5;
   border-color: #DBE0E4;
 }
 
-/* line 379, sass/ajb007.scss */
+/* line 391, sass/ajb007.scss */
 .brd .content-head .hn {
   border-color: #DBE0E4;
   /*color: #666;*/
 }
 
-/* line 384, sass/ajb007.scss */
+/* line 396, sass/ajb007.scss */
 .brd .main-head a:link, .brd .main-head a:visited,
 .brd .main-foot .options a:link, .brd .main-foot .options a:visited {
   color: #ccc;
 }
 
-/* line 389, sass/ajb007.scss */
+/* line 401, sass/ajb007.scss */
 .brd .main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
 .brd .main-foot .options a:hover, .brd .main-foot .options a:active, .brd .main-foot .options a:focus {
   color: #fff;
 }
 
-/* line 394, sass/ajb007.scss */
+/* line 406, sass/ajb007.scss */
 .brd th {
   background: #999;
   color: #000;
@@ -4907,72 +4924,72 @@ body {
 /*.brd .main-frm .ct-group td {
 	background: #FBFBFB;
 	}*/
-/* line 403, sass/ajb007.scss */
+/* line 415, sass/ajb007.scss */
 #extensions-used {
   border-bottom-color: #999;
 }
 
 /* Status indicators
 ----------------------------------------------------------------*/
-/* line 411, sass/ajb007.scss */
+/* line 423, sass/ajb007.scss */
 .brd .main-content .main-item .icon {
   border-color: #EDF1F5 #DDE0E4 #C6CBD3 #BABFC6;
 }
 
-/* line 415, sass/ajb007.scss */
+/* line 427, sass/ajb007.scss */
 .brd .main-content .redirect .icon {
   border-color: #f4f4f4 #f4f4f4 #f4f4f4 #f4f4f4;
 }
 
-/* line 419, sass/ajb007.scss */
+/* line 431, sass/ajb007.scss */
 .brd .main-content .sticky .icon {
   border-color: #D7E5F3 #C3CFDC #9FB3C7 #90A2B4;
 }
 
-/* line 423, sass/ajb007.scss */
+/* line 435, sass/ajb007.scss */
 .brd .main-content .closed .icon {
   border-color: #ACACAC #979797 #898989 #7A7A7A;
 }
 
-/* line 427, sass/ajb007.scss */
+/* line 439, sass/ajb007.scss */
 .brd .main-content .sticky .closed .icon {
   border-color: #D7E5F3 #C3CFDC #898989 #7A7A7A;
 }
 
-/* line 431, sass/ajb007.scss */
+/* line 443, sass/ajb007.scss */
 .brd .main-content .new .icon {
   border-color: #2B75AD #235E8C #1F537B #266799;
 }
 
 /* Multi Checkbox Widget
 -------------------------------------------------------------*/
-/* line 439, sass/ajb007.scss */
+/* line 451, sass/ajb007.scss */
 .brd .checklist .checklist-item label:hover {
   background-color: #EDF1F5;
 }
 
 /* SiCo Custom Colours
 -------------------------------------------------------------*/
-/* line 445, sass/ajb007.scss */
+/* line 457, sass/ajb007.scss */
 .brd .main-content .main-item li.info-lastpost cite {
   color: #999;
 }
 
-/* line 449, sass/ajb007.scss */
+/* line 461, sass/ajb007.scss */
 #brd-stats, #brd-online, #brd-about {
   color: #999;
   background-color: #474747;
   border-color: #474747;
 }
 
-/* line 455, sass/ajb007.scss */
+/* line 467, sass/ajb007.scss */
 #brd-qpost, #post-form {
   color: #000 !important;
   background-color: #999;
   border-color: #999;
 }
 
-/* line 461, sass/ajb007.scss */
+/* line 473, sass/ajb007.scss */
 .brd .admin-page .ct-set .ct-box a:link, .brd .admin-page .ct-set .ct-box a:visited,
 .brd .content-options a:link, .brd .content-options a:visited,
 .brd .sf-set a:link, .brd .sf-set a:visited,
@@ -4982,7 +4999,7 @@ body {
   text-decoration: underline;
 }
 
-/* line 470, sass/ajb007.scss */
+/* line 482, sass/ajb007.scss */
 .brd .admin-page .ct-set .ct-box a:hover, .brd .admin-page .ct-set .ct-box a:active, .brd .admin-page .ct-set .ct-box a:focus,
 .brd .content-options a:hover, .brd .content-options a:active, .brd .content-options a:focus,
 .brd .sf-set a:hover, .brd .sf-set a:focus,
@@ -4992,18 +5009,18 @@ body {
   text-decoration: none;
 }
 
-/* line 479, sass/ajb007.scss */
+/* line 491, sass/ajb007.scss */
 #topic-review, #post-preview {
   border-color: #999;
 }
 
-/* line 483, sass/ajb007.scss */
+/* line 495, sass/ajb007.scss */
 #brd-stats .brd .ct-box ul li strong,
 .info-box ul li strong {
   color: #000;
 }
 
-/* line 488, sass/ajb007.scss */
+/* line 500, sass/ajb007.scss */
 .brd .checklist legend,
 .brd .checklist label {
   color: #000;
@@ -5014,35 +5031,35 @@ p.warn,
 .brd .main-content .info-box {
 	color: #000;
 }*/
-/* line 499, sass/ajb007.scss */
+/* line 511, sass/ajb007.scss */
 .brd .main-content {
   background: #000;
   border-color: #999;
 }
 
-/* line 504, sass/ajb007.scss */
+/* line 516, sass/ajb007.scss */
 .brd #brd-announcement {
   background-color: #333;
   border-color: #999;
 }
 
-/* line 509, sass/ajb007.scss */
+/* line 521, sass/ajb007.scss */
 .brd .entry-content .quotebox {
   color: #999;
 }
 
-/* line 513, sass/ajb007.scss */
+/* line 525, sass/ajb007.scss */
 a:link.permalink, a:visited.permalink {
   color: #999;
   text-decoration: none;
 }
 
-/* line 518, sass/ajb007.scss */
+/* line 530, sass/ajb007.scss */
 a:hover.permalink, a:active.permalink, a:focus.permalink {
   text-decoration: underline;
 }
 
-/* line 522, sass/ajb007.scss */
+/* line 534, sass/ajb007.scss */
 span.item-starter,
 div.sig-content {
   color: #999;
@@ -5050,20 +5067,20 @@ div.sig-content {
 
 /* Pun PM
 -------------------------------------------------------------*/
-/* line 530, sass/ajb007.scss */
+/* line 542, sass/ajb007.scss */
 div.pun_pm_msg {
   border: solid 1px #999;
 }
 
 /* BBcode Extended
 -------------------------------------------------------------*/
-/* line 537, sass/ajb007.scss */
+/* line 549, sass/ajb007.scss */
 .spoiler > strong {
   color: #999;
   background: #000;
 }
 
-/* line 543, sass/ajb007.scss */
+/* line 555, sass/ajb007.scss */
 div.spoiler {
   background-color: #000000;
   border-left: 2px solid #999;

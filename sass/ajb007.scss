@@ -138,6 +138,14 @@ body {
 	color: #999;
 	}
 
+.posthead, .postbody, .post-options {
+    background: #292929;
+}
+
+.posthead .hn {
+    background: none;
+}
+
 .brd .online .userstatus span {
 	border-color: #517CA1;
 	}
@@ -171,6 +179,10 @@ body {
 	background: #000;
 	}
 
+.main-frm .ct-group td {
+    background: #000000 none repeat scroll 0 0;
+}
+        
 .brd .main-content .info-box {
     color: #000;
     background: #999;
@@ -208,9 +220,9 @@ body {
 	color: #999;
 	}
 
-/*.brd .user-box {
+.brd .user-box {
 	background: #F4F9FD;
-	}*/
+	}
 /*.brd .ct-box .hn, .brd .ct-box .sig-demo {
 	border-color: #DBE0E4;
 	color: #e0e0e0;
