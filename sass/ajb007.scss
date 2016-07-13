@@ -38,11 +38,19 @@ body {
     color: #e0e0e0;
 }
 
-.brd a:link, .brd a:visited {
+a:link, a:visited
+{
     color: #6699cc;
+    text-decoration: none;
 }
 
-.brd p.feed a:link, .brd p.feed a:visited {
+a:hover, a:active, a:focus
+{
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
+/*.brd p.feed a:link, .brd p.feed a:visited {
     color: #DDDDDD;
 }
 
@@ -79,7 +87,7 @@ body {
 	}*/
 
 
-.brd .main-item, .brd .main-item li, .brd .main-item div, .brd td {
+/*.brd .main-item, .brd .main-item li, .brd .main-item div, .brd td {
     border-color: #999;
 }
 
@@ -112,7 +120,6 @@ body {
 	}
 
 .brd .post {
-	/*border-color: #999;*/
 	border-top-color: #999;
 	border-bottom-color: #ccc;
 	}
@@ -124,7 +131,7 @@ body {
 
 .brd .post {
 	background: #292929;
-	}
+	}*/
 
 /*.brd .posthead, .brd .postbody, .brd .post-options {
 	background: #000;
@@ -134,7 +141,7 @@ body {
 	background: #000;
 	}*/
 
-.brd .posthead .post-title small {
+/*.brd .posthead .post-title small {
 	color: #999;
 	}
 
@@ -161,13 +168,13 @@ body {
 
 .brd .admin-page .ct-set .ct-box, .brd .report {
 	background: #999;
-	}
+	}*/
 
 /*.brd .admin-page .warn-set .warn-box {
 	background: #000;
 	}*/
 
-.ct-legend {
+/*.ct-legend {
     color: #e0e0e0;
 }
 
@@ -186,13 +193,13 @@ body {
 .brd .main-content .info-box {
     color: #000;
     background: #999;
-}
+}*/
 
 /*.brd .main-extensions .extension, .brd .main-hotfixes .hotfix {
 	background: #999;
 	}*/
 
-.brd .main-extensions .disabled, .brd .main-hotfixes .disabled {
+/*.brd .main-extensions .disabled, .brd .main-hotfixes .disabled {
 	background: #FFFFE1;
 	}
 
@@ -200,13 +207,13 @@ body {
 	background: #999;
 	border-color: #999;
         color: #000;
-	}
+	}*/
 
 /*.brd .warn-group, .brd .warn-set, .brd .warn-box, .brd .error-box {
 	border-color: #999;
 	}*/
 
-.brd ul.info-list li,
+/*.brd ul.info-list li,
 .brd ul.error-list li {
 	color: #000;
 	}
@@ -222,13 +229,13 @@ body {
 
 .brd .user-box {
 	background: #F4F9FD;
-	}
+	}*/
 /*.brd .ct-box .hn, .brd .ct-box .sig-demo {
 	border-color: #DBE0E4;
 	color: #e0e0e0;
 	}*/
 
-.brd .error-box .hn {
+/*.brd .error-box .hn {
 	color: #333;
 	}
 
@@ -244,13 +251,13 @@ body {
 .brd .checklist {
 	background: #fff;
 	border-color: #ccc;
-	}
+	}*/
 
 /*.brd label, .brd .aslabel, .brd .mf-set legend, .brd .ct-legend * {
 	color: #e0e0e0;
 	}*/
 
-.brd .paging * {
+/*.brd .paging * {
 	border-color: #dedfdf;
 	}
 
@@ -261,7 +268,6 @@ body {
 
 .brd .entry-content .quotebox, .brd .entry-content .codebox {
 	background: #2F2F2F;
-	/*border-color: #ddd;*/
 	}
 
 #brd-announcement .userbox {
@@ -270,12 +276,12 @@ body {
 
 .brd .main-content .main-item .hn .posted-mark {
 	color: #99C;
-	}
+	}*/
 
 /* Menus
 ----------------------------------------------------------------*/
 
-#brd-navlinks {
+/*#brd-navlinks {
 	background: #999;
 	border-color: #999;
 	color: #000;
@@ -347,18 +353,20 @@ body {
 
 #brd-admod #alert a {
 	color: yellow;
-	}
+	}*/
 
 /* Logo and Headings
 ----------------------------------------------------------------*/
 
-#brd-head {
+#brd-head
+{
     background: #4C6174 url(/public/assets/images/james-bond-cards.png) right no-repeat;
-	color: #ddd;
-	border-color: #4C6174;
-	}
+    color: #ddd;
+    border-color: #4C6174;
+    border-radius: 0;
+}
 
-#brd-head a, #brd-head a:link, #brd-head a:visited {
+/*#brd-head a, #brd-head a:link, #brd-head a:visited {
 	color: #fff;
 	}
 
@@ -390,7 +398,6 @@ body {
 
 .brd .content-head .hn {
 	border-color: #DBE0E4;
-	/*color: #666;*/
 	}
 
 .brd .main-head a:link, .brd .main-head a:visited,
@@ -406,21 +413,21 @@ body {
 .brd th {
 	background: #999;
 	color: #000;
-	}
+	}*/
 
 /*.brd .main-frm .ct-group td {
 	background: #FBFBFB;
 	}*/
 
-#extensions-used {
+/*#extensions-used {
 	border-bottom-color: #999;
-}
+}*/
 
 
 /* Status indicators
 ----------------------------------------------------------------*/
 
-.brd .main-content .main-item .icon {
+/*.brd .main-content .main-item .icon {
 	border-color: #EDF1F5 #DDE0E4 #C6CBD3 #BABFC6;
 	}
 
@@ -442,19 +449,19 @@ body {
 
 .brd .main-content .new .icon {
 	border-color: #2B75AD #235E8C #1F537B #266799;
-	}
+	}*/
 
 
 /* Multi Checkbox Widget
 -------------------------------------------------------------*/
 
-.brd .checklist .checklist-item label:hover {
+/*.brd .checklist .checklist-item label:hover {
     background-color: #EDF1F5;
-}
+}*/
 
 /* SiCo Custom Colours
 -------------------------------------------------------------*/
-.brd .main-content .main-item li.info-lastpost cite {
+/*.brd .main-content .main-item li.info-lastpost cite {
 	color: #999;
 }
 
@@ -500,7 +507,7 @@ body {
 .brd .checklist legend,
 .brd .checklist label {
 	color: #000;
-}
+}*/
 
 /*p.important,
 p.warn,
@@ -508,7 +515,7 @@ p.warn,
 	color: #000;
 }*/
 
-.brd .main-content {
+/*.brd .main-content {
 	background: #000;
 	border-color: #999;
 	}
@@ -534,19 +541,19 @@ a:hover.permalink, a:active.permalink, a:focus.permalink {
 span.item-starter,
 div.sig-content {
 	color: #999;
-}
+}*/
 
 /* Pun PM
 -------------------------------------------------------------*/
 
-div.pun_pm_msg {
+/*div.pun_pm_msg {
 	border: solid 1px #999;
-}
+}*/
 
 /* BBcode Extended
 -------------------------------------------------------------*/
 
-.spoiler>strong {
+/*.spoiler>strong {
 	color:#999;
 	background:#000;
 	
@@ -556,4 +563,4 @@ div.spoiler {
 	background-color: #000000;
 	border-left: 2px solid #999;
 	color: #000000;
-}
+}*/
