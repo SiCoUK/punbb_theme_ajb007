@@ -78,12 +78,11 @@ h1, h2, h3, h4, h5, h6 {
 .brd .gen-content, .brd .main-content {
     background: #000;
     border-color: #000;
-}
+}*/
 
-/*.brd .main-pagepost {
-	background: #fff;
-	border-color: #DDE4EB;
-	}*/
+.main-pagepost {
+    border-color: #000;
+}
 
 /*.brd .crumbs {
 	background: #fff;
@@ -498,13 +497,39 @@ li.info-lastpost cite {
 	color: #999;
 }
 
-/*#brd-stats, #brd-online, #brd-about {
+#brd-stats, #brd-online, #brd-about {
 	color: #999;
 	background-color: #474747;
 	border-color: #474747;
 }
 
-#brd-qpost, #post-form {
+#brd-online {
+    margin-top: 0.1em;
+}
+
+#brd-about {
+    padding: 1em 2.5em 1em 1em;
+    padding-bottom: 2.5em;
+}
+
+#copyright {
+    font-size: 0.8em;
+}
+
+#sico-footer {
+    clear: both;
+    padding-top: 2em;
+}
+
+#sico-footer p {
+    font-size: 0.8em;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*#brd-qpost, #post-form {
  	color: #000!important;
 	background-color: #999;
 	border-color: #999;

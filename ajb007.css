@@ -3688,12 +3688,12 @@ h1, h2, h3, h4, h5, h6 {
 .brd .gen-content, .brd .main-content {
     background: #000;
     border-color: #000;
+}*/
+/* line 83, sass/ajb007.scss */
+.main-pagepost {
+  border-color: #000;
 }
 
-/*.brd .main-pagepost {
-	background: #fff;
-	border-color: #DDE4EB;
-	}*/
 /*.brd .crumbs {
 	background: #fff;
 	border-color: #fff;
@@ -3878,20 +3878,20 @@ h1, h2, h3, h4, h5, h6 {
 	}*/
 /* Menus
 ----------------------------------------------------------------*/
-/* line 288, sass/ajb007.scss */
+/* line 287, sass/ajb007.scss */
 #brd-navlinks {
   background: #999;
   border-color: #999;
   color: #000;
 }
 
-/* line 294, sass/ajb007.scss */
+/* line 293, sass/ajb007.scss */
 #brd-navlinks a:link, #brd-navlinks a:visited {
   color: #000;
   text-decoration: none;
 }
 
-/* line 299, sass/ajb007.scss */
+/* line 298, sass/ajb007.scss */
 #brd-navlinks a:hover, #brd-navlinks a:active, #brd-navlinks a:focus {
   color: #000;
   text-decoration: underline;
@@ -3956,7 +3956,7 @@ h1, h2, h3, h4, h5, h6 {
 	}*/
 /* Logo and Headings
 ----------------------------------------------------------------*/
-/* line 365, sass/ajb007.scss */
+/* line 364, sass/ajb007.scss */
 #brd-head {
   background: #4C6174 url(/public/assets/images/james-bond-cards.png) right no-repeat;
   color: #ddd;
@@ -3964,7 +3964,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
 }
 
-/* line 373, sass/ajb007.scss */
+/* line 372, sass/ajb007.scss */
 #brd-visit {
   background-color: #000;
   border-color: #000;
@@ -3975,7 +3975,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	}
 */
-/* line 383, sass/ajb007.scss */
+/* line 382, sass/ajb007.scss */
 .main-head,
 .main-foot {
   background: #4C6174;
@@ -3990,19 +3990,19 @@ h1, h2, h3, h4, h5, h6 {
 	border-color: #BBBBBB;
 	}
 */
-/* line 397, sass/ajb007.scss */
+/* line 396, sass/ajb007.scss */
 .brd .main-subhead {
   border-color: #999999;
   background: #999999;
   color: #000;
 }
 
-/* line 403, sass/ajb007.scss */
+/* line 402, sass/ajb007.scss */
 .brd .main-category, .brd .main-item {
   border-color: #999999;
 }
 
-/* line 407, sass/ajb007.scss */
+/* line 406, sass/ajb007.scss */
 .main-item .item-subject, .main-content .main-item li {
   border-left-style: none;
   border-left-width: 1px;
@@ -4050,37 +4050,37 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 /* Status indicators
 ----------------------------------------------------------------*/
-/* line 459, sass/ajb007.scss */
+/* line 458, sass/ajb007.scss */
 .main-content .main-item .icon {
   margin-top: 1em;
 }
 
-/* line 463, sass/ajb007.scss */
+/* line 462, sass/ajb007.scss */
 .main-content .main-item .icon {
   border-color: #EDF1F5 #DDE0E4 #C6CBD3 #BABFC6;
 }
 
-/* line 467, sass/ajb007.scss */
+/* line 466, sass/ajb007.scss */
 .main-content .redirect .icon {
   border-color: #f4f4f4 #f4f4f4 #f4f4f4 #f4f4f4;
 }
 
-/* line 471, sass/ajb007.scss */
+/* line 470, sass/ajb007.scss */
 .main-content .sticky .icon {
   border-color: #D7E5F3 #C3CFDC #9FB3C7 #90A2B4;
 }
 
-/* line 475, sass/ajb007.scss */
+/* line 474, sass/ajb007.scss */
 .main-content .closed .icon {
   border-color: #ACACAC #979797 #898989 #7A7A7A;
 }
 
-/* line 479, sass/ajb007.scss */
+/* line 478, sass/ajb007.scss */
 .main-content .sticky .closed .icon {
   border-color: #D7E5F3 #C3CFDC #898989 #7A7A7A;
 }
 
-/* line 483, sass/ajb007.scss */
+/* line 482, sass/ajb007.scss */
 .main-content .new .icon {
   border-color: #2B75AD #235E8C #1F537B #266799;
 }
@@ -4092,18 +4092,50 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 /* SiCo Custom Colours
 -------------------------------------------------------------*/
-/* line 497, sass/ajb007.scss */
+/* line 496, sass/ajb007.scss */
 li.info-lastpost cite {
   color: #999;
 }
 
-/*#brd-stats, #brd-online, #brd-about {
-	color: #999;
-	background-color: #474747;
-	border-color: #474747;
+/* line 500, sass/ajb007.scss */
+#brd-stats, #brd-online, #brd-about {
+  color: #999;
+  background-color: #474747;
+  border-color: #474747;
 }
 
-#brd-qpost, #post-form {
+/* line 506, sass/ajb007.scss */
+#brd-online {
+  margin-top: 0.1em;
+}
+
+/* line 510, sass/ajb007.scss */
+#brd-about {
+  padding: 1em 2.5em 1em 1em;
+  padding-bottom: 2.5em;
+}
+
+/* line 515, sass/ajb007.scss */
+#copyright {
+  font-size: 0.8em;
+}
+
+/* line 519, sass/ajb007.scss */
+#sico-footer {
+  clear: both;
+  padding-top: 2em;
+}
+
+/* line 524, sass/ajb007.scss */
+#sico-footer p {
+  font-size: 0.8em;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/*#brd-qpost, #post-form {
  	color: #000!important;
 	background-color: #999;
 	border-color: #999;
