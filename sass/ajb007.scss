@@ -70,11 +70,11 @@ h1, h2, h3, h4, h5, h6 {
 .brd .main-pagepost a:focus, .brd .crumbs a:focus {
     text-decoration: none;
 }
-
-.brd .gen-content, .brd .main-content {
+*/
+.gen-content, .main-content {
     background: #000;
     border-color: #000;
-}*/
+}
 
 #brd-crumbs-top .crumblast {
     font-size: inherit;
@@ -445,14 +445,28 @@ h1, h2, h3, h4, h5, h6 {
 	}
 */
 
+.options a:link, .options a:visited
+{
+    color: #000;
+    text-decoration: underline;
+}
+
+.options a:hover, .options a:active, .options a:focus
+{
+    color: #000;
+    text-decoration: none;
+}
+
 .main-head a:link, .main-head a:visited,
 .main-foot .options a:link, .main-foot .options a:visited {
     color: #ccc;
+    text-decoration: none;
 }
 
 .main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
 .main-foot .options a:hover, .main-foot .options a:active, .main-foot .options a:focus {
     color: #fff;
+    text-decoration: underline;
 }
 /*
 .brd th {
@@ -550,22 +564,10 @@ li.info-lastpost cite {
     text-align: center;
 }
 
-#brd-qpost {
+#post-form, #brd-qpost {
  	color: #000;
 	background-color: #999;
 	border-color: #999;
-}
-
-#brd-qpost a:link, #brd-qpost a:visited
-{
-    color: #000;
-    text-decoration: underline;
-}
-
-#brd-qpost a:hover, #brd-qpost a:active, #brd-qpost a:focus
-{
-    color: #000;
-    text-decoration: none;
 }
 
 /*
