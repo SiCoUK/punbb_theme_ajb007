@@ -3634,32 +3634,28 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     text-indent: 0;
     visibility: visible;
     margin-bottom: 1em;
-}
-
-.crumbs {
-    padding: 0;
 }*/
 /* General colour scheme
 ----------------------------------------------------------------*/
-/* line 36, sass/ajb007.scss */
+/* line 32, sass/ajb007.scss */
 body {
   background: #000;
   color: #e0e0e0;
 }
 
-/* line 41, sass/ajb007.scss */
+/* line 37, sass/ajb007.scss */
 a:link, a:visited {
   color: #6699cc;
   text-decoration: none;
 }
 
-/* line 47, sass/ajb007.scss */
+/* line 43, sass/ajb007.scss */
 a:hover, a:active, a:focus {
   color: #e0e0e0;
   text-decoration: underline;
 }
 
-/* line 53, sass/ajb007.scss */
+/* line 49, sass/ajb007.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
@@ -3689,9 +3685,16 @@ h1, h2, h3, h4, h5, h6 {
     background: #000;
     border-color: #000;
 }*/
+/* line 79, sass/ajb007.scss */
+#brd-crumbs-top .crumblast {
+  font-size: inherit;
+}
+
 /* line 83, sass/ajb007.scss */
 .main-pagepost {
   border-color: #000;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 /*.brd .crumbs {
@@ -3712,24 +3715,24 @@ h1, h2, h3, h4, h5, h6 {
 	color: #888;
 	}
 */
-/* line 107, sass/ajb007.scss */
+/* line 109, sass/ajb007.scss */
 .brd .main-content .sticky {
   background: #333;
 }
 
-/* line 111, sass/ajb007.scss */
+/* line 113, sass/ajb007.scss */
 .brd .main-content .moved,
 .brd .main-content .closed {
   color: #999;
 }
 
-/* line 117, sass/ajb007.scss */
+/* line 119, sass/ajb007.scss */
 .brd .main-content .moved a,
 .brd .main-content .closed a {
   font-weight: normal;
 }
 
-/* line 123, sass/ajb007.scss */
+/* line 125, sass/ajb007.scss */
 .hn .item-status em {
   color: #999;
   font-weight: bold;
@@ -3888,20 +3891,20 @@ h1, h2, h3, h4, h5, h6 {
 	}*/
 /* Menus
 ----------------------------------------------------------------*/
-/* line 295, sass/ajb007.scss */
+/* line 297, sass/ajb007.scss */
 #brd-navlinks {
   background: #999;
   border-color: #999;
   color: #000;
 }
 
-/* line 301, sass/ajb007.scss */
+/* line 303, sass/ajb007.scss */
 #brd-navlinks a:link, #brd-navlinks a:visited {
   color: #000;
   text-decoration: none;
 }
 
-/* line 306, sass/ajb007.scss */
+/* line 308, sass/ajb007.scss */
 #brd-navlinks a:hover, #brd-navlinks a:active, #brd-navlinks a:focus {
   color: #000;
   text-decoration: underline;
@@ -3966,7 +3969,7 @@ h1, h2, h3, h4, h5, h6 {
 	}*/
 /* Logo and Headings
 ----------------------------------------------------------------*/
-/* line 372, sass/ajb007.scss */
+/* line 374, sass/ajb007.scss */
 #brd-head {
   background: #4C6174 url(/public/assets/images/james-bond-cards.png) right no-repeat;
   color: #ddd;
@@ -3974,18 +3977,14 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
 }
 
-/* line 380, sass/ajb007.scss */
+/* line 382, sass/ajb007.scss */
 #brd-visit {
   background-color: #000;
   border-color: #000;
   padding-top: 0.5em;
 }
 
-/*#brd-head a, #brd-head a:link, #brd-head a:visited {
-	color: #fff;
-	}
-*/
-/* line 390, sass/ajb007.scss */
+/* line 388, sass/ajb007.scss */
 .main-head,
 .main-foot {
   background: #4C6174;
@@ -4000,19 +3999,19 @@ h1, h2, h3, h4, h5, h6 {
 	border-color: #BBBBBB;
 	}
 */
-/* line 404, sass/ajb007.scss */
+/* line 402, sass/ajb007.scss */
 .brd .main-subhead {
   border-color: #999999;
   background: #999999;
   color: #000;
 }
 
-/* line 410, sass/ajb007.scss */
+/* line 408, sass/ajb007.scss */
 .main-category, .main-item, .main-forum {
   border-color: #999999;
 }
 
-/* line 414, sass/ajb007.scss */
+/* line 412, sass/ajb007.scss */
 .main-item .item-subject, .main-content .main-item li {
   border-left-style: none;
   border-left-width: 1px;
@@ -4037,17 +4036,20 @@ h1, h2, h3, h4, h5, h6 {
 .brd .content-head .hn {
 	border-color: #DBE0E4;
 	}
+*/
+/* line 438, sass/ajb007.scss */
+.main-head a:link, .main-head a:visited,
+.main-foot .options a:link, .main-foot .options a:visited {
+  color: #ccc;
+}
 
-.brd .main-head a:link, .brd .main-head a:visited,
-.brd .main-foot .options a:link, .brd .main-foot .options a:visited {
-	color: #ccc;
-	}
+/* line 443, sass/ajb007.scss */
+.main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
+.main-foot .options a:hover, .main-foot .options a:active, .main-foot .options a:focus {
+  color: #fff;
+}
 
-.brd .main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
-.brd .main-foot .options a:hover, .brd .main-foot .options a:active, .brd .main-foot .options a:focus {
-	color: #fff;
-	}
-
+/*
 .brd th {
 	background: #999;
 	color: #000;
@@ -4060,42 +4062,42 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 /* Status indicators
 ----------------------------------------------------------------*/
-/* line 466, sass/ajb007.scss */
+/* line 465, sass/ajb007.scss */
 .main-content .main-item .icon {
   margin-top: 1em;
 }
 
-/* line 470, sass/ajb007.scss */
+/* line 469, sass/ajb007.scss */
 .main-content .main-item .icon {
   border-color: #EDF1F5 #DDE0E4 #C6CBD3 #BABFC6;
 }
 
-/* line 474, sass/ajb007.scss */
+/* line 473, sass/ajb007.scss */
 .main-content .redirect .icon {
   border-color: #f4f4f4 #f4f4f4 #f4f4f4 #f4f4f4;
 }
 
-/* line 478, sass/ajb007.scss */
+/* line 477, sass/ajb007.scss */
 .main-content .sticky .icon {
   border-color: #D7E5F3 #C3CFDC #9FB3C7 #90A2B4;
 }
 
-/* line 482, sass/ajb007.scss */
+/* line 481, sass/ajb007.scss */
 .main-content .closed .icon {
   border-color: #ACACAC #979797 #898989 #7A7A7A;
 }
 
-/* line 486, sass/ajb007.scss */
+/* line 485, sass/ajb007.scss */
 .main-content .sticky .closed .icon {
   border-color: #D7E5F3 #C3CFDC #898989 #7A7A7A;
 }
 
-/* line 490, sass/ajb007.scss */
+/* line 489, sass/ajb007.scss */
 .main-content .new .icon {
   border-color: #2B75AD #235E8C #1F537B #266799;
 }
 
-/* line 494, sass/ajb007.scss */
+/* line 493, sass/ajb007.scss */
 .main-content .moved .icon {
   border-color: #ACACAC #979797 #898989 #7A7A7A;
 }
@@ -4107,41 +4109,41 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 /* SiCo Custom Colours
 -------------------------------------------------------------*/
-/* line 508, sass/ajb007.scss */
+/* line 507, sass/ajb007.scss */
 li.info-lastpost cite {
   color: #999;
 }
 
-/* line 512, sass/ajb007.scss */
+/* line 511, sass/ajb007.scss */
 #brd-stats, #brd-online, #brd-about {
   color: #999;
   background-color: #474747;
   border-color: #474747;
 }
 
-/* line 518, sass/ajb007.scss */
+/* line 517, sass/ajb007.scss */
 #brd-online {
   margin-top: 0.1em;
 }
 
-/* line 522, sass/ajb007.scss */
+/* line 521, sass/ajb007.scss */
 #brd-about {
   padding: 1em 2.5em 1em 1em;
   padding-bottom: 2.5em;
 }
 
-/* line 527, sass/ajb007.scss */
+/* line 526, sass/ajb007.scss */
 #copyright {
   font-size: 0.8em;
 }
 
-/* line 531, sass/ajb007.scss */
+/* line 530, sass/ajb007.scss */
 #sico-footer {
   clear: both;
   padding-top: 2em;
 }
 
-/* line 536, sass/ajb007.scss */
+/* line 535, sass/ajb007.scss */
 #sico-footer p {
   font-size: 0.8em;
   line-height: normal;
@@ -4215,7 +4217,7 @@ a:hover.permalink, a:active.permalink, a:focus.permalink {
 	text-decoration: underline;
 	}
 */
-/* line 611, sass/ajb007.scss */
+/* line 610, sass/ajb007.scss */
 span.item-starter,
 div.sig-content {
   color: #999;

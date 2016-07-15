@@ -24,10 +24,6 @@
     text-indent: 0;
     visibility: visible;
     margin-bottom: 1em;
-}
-
-.crumbs {
-    padding: 0;
 }*/
 
 /* General colour scheme
@@ -80,8 +76,14 @@ h1, h2, h3, h4, h5, h6 {
     border-color: #000;
 }*/
 
+#brd-crumbs-top .crumblast {
+    font-size: inherit;
+}
+
 .main-pagepost {
     border-color: #000;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 /*.brd .crumbs {
@@ -383,10 +385,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 0.5em;
 }
 
-/*#brd-head a, #brd-head a:link, #brd-head a:visited {
-	color: #fff;
-	}
-*/
 .main-head,
 .main-foot
 {
@@ -435,17 +433,18 @@ h1, h2, h3, h4, h5, h6 {
 .brd .content-head .hn {
 	border-color: #DBE0E4;
 	}
+*/
 
-.brd .main-head a:link, .brd .main-head a:visited,
-.brd .main-foot .options a:link, .brd .main-foot .options a:visited {
-	color: #ccc;
-	}
+.main-head a:link, .main-head a:visited,
+.main-foot .options a:link, .main-foot .options a:visited {
+    color: #ccc;
+}
 
-.brd .main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
-.brd .main-foot .options a:hover, .brd .main-foot .options a:active, .brd .main-foot .options a:focus {
-	color: #fff;
-	}
-
+.main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
+.main-foot .options a:hover, .main-foot .options a:active, .main-foot .options a:focus {
+    color: #fff;
+}
+/*
 .brd th {
 	background: #999;
 	color: #000;
