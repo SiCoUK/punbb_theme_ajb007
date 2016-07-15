@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
 }
 
-.main-category, .main-item, .main-forum {
+.main-category, .main-item, .main-forum, .main-topic, .posthead, .postbody, .postfoot div {
     border-color: #999999;
 }
 
@@ -417,6 +417,14 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 10.4em;
     padding-top: 0.6em;
     position: relative;
+}
+
+.post {
+    border-width: 0 0 1px 0;
+}
+
+.post-ident {
+    border-color: #999999;
 }
 
 /*
