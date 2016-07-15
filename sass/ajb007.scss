@@ -300,12 +300,14 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
 }
 
-#brd-navlinks a:link, #brd-navlinks a:visited {
+#brd-navlinks a:link, #brd-navlinks a:visited
+{
     color: #000;
     text-decoration: none;
 }
 
-#brd-navlinks a:hover, #brd-navlinks a:active, #brd-navlinks a:focus {
+#brd-navlinks a:hover, #brd-navlinks a:active, #brd-navlinks a:focus
+{
     color: #000;
     text-decoration: underline;
 }
@@ -548,12 +550,25 @@ li.info-lastpost cite {
     text-align: center;
 }
 
-/*#brd-qpost, #post-form {
- 	color: #000!important;
+#brd-qpost {
+ 	color: #000;
 	background-color: #999;
 	border-color: #999;
 }
 
+#brd-qpost a:link, #brd-qpost a:visited
+{
+    color: #000;
+    text-decoration: underline;
+}
+
+#brd-qpost a:hover, #brd-qpost a:active, #brd-qpost a:focus
+{
+    color: #000;
+    text-decoration: none;
+}
+
+/*
 .brd .admin-page .ct-set .ct-box a:link, .brd .admin-page .ct-set .ct-box a:visited,
 .brd .content-options a:link, .brd .content-options a:visited,
 .brd .sf-set a:link, .brd .sf-set a:visited,
