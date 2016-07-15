@@ -388,7 +388,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-head,
-.main-foot
+.main-foot,
+.main-menu,
+.admin-menu
 {
     background: #4C6174;
     color: #ddd;
@@ -458,21 +460,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-head a:link, .main-head a:visited,
-.main-foot .options a:link, .main-foot .options a:visited {
+.main-foot .options a:link, .main-foot .options a:visited,
+.main-menu a:link, .main-menu a:visited,
+.admin-menu a:link, .admin-menu a:visited
+{
     color: #ccc;
     text-decoration: none;
 }
 
-.main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
-.main-foot .options a:hover, .main-foot .options a:active, .main-foot .options a:focus {
+.main-head a:hover, .main-head a:active, .main-head a:focus,
+.main-foot .options a:hover, .main-foot .options a:active, .main-foot .options a:focus,
+.main-menu a:hover, .main-menu a:active, .main-menu a:focus,
+.admin-menu a:hover, .admin-menu a:active, .admin-menu a:focus
+{
     color: #fff;
     text-decoration: underline;
 }
-/*
-.brd th {
-	background: #999;
-	color: #000;
-	}*/
+
+table td {
+    border-color: #999;
+}
+
+table th {
+    background: #999;
+    color: #000;
+}
 
 /*.brd .main-frm .ct-group td {
 	background: #FBFBFB;
@@ -565,10 +577,24 @@ li.info-lastpost cite {
 }
 
 #post-form, #brd-qpost {
- 	color: #000;
-	background-color: #999;
-	border-color: #999;
+    color: #000;
+    background-color: #999;
+    border-color: #999;
 }
+
+.ct-group
+{
+    background: #000;
+    color: #e0e0e0;
+    margin: 0;
+    padding-top: 0.5em;
+    border: 0;
+}
+/*
+.ct-group table
+{
+    margin-top: 1em;
+}*/
 
 /*
 .brd .admin-page .ct-set .ct-box a:link, .brd .admin-page .ct-set .ct-box a:visited,

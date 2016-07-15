@@ -2374,10 +2374,9 @@ td.actions span {
   border-bottom-style: dashed;
   border-bottom-width: 1px;
   margin-bottom: .5em;
-  color: #294f6e;
 }
 
-/* line 1703, sass/_Oxygen.scss */
+/* line 1702, sass/_Oxygen.scss */
 #brd-messages {
   text-align: center;
   position: fixed;
@@ -2388,7 +2387,7 @@ td.actions span {
   right: 0;
 }
 
-/* line 1712, sass/_Oxygen.scss */
+/* line 1711, sass/_Oxygen.scss */
 #brd-messages span {
   text-align: center;
   padding: .35em 1.3em;
@@ -2400,13 +2399,13 @@ td.actions span {
   border-style: solid;
 }
 
-/* line 1722, sass/_Oxygen.scss */
+/* line 1721, sass/_Oxygen.scss */
 .ie6 a.feed,
 .ie7 a.feed {
   background: url(feed-icon.png) center left no-repeat;
 }
 
-/* line 1726, sass/_Oxygen.scss */
+/* line 1725, sass/_Oxygen.scss */
 .ie6 .brd-page,
 .ie6 .main,
 .ie6 #brd-index .main-subhead,
@@ -2435,83 +2434,83 @@ td.actions span {
   zoom: 1;
 }
 
-/* line 1753, sass/_Oxygen.scss */
+/* line 1752, sass/_Oxygen.scss */
 .ie6 .ct-box ol,
 .ie6 .ct-box ol li {
   zoom: normal;
 }
 
-/* line 1757, sass/_Oxygen.scss */
+/* line 1756, sass/_Oxygen.scss */
 .ie6 .postfoot .post-contacts {
   position: absolute;
 }
 
-/* line 1760, sass/_Oxygen.scss */
+/* line 1759, sass/_Oxygen.scss */
 .ie6 #brd-wrap fieldset {
   padding-top: 1px;
   position: relative;
 }
 
-/* line 1764, sass/_Oxygen.scss */
+/* line 1763, sass/_Oxygen.scss */
 .ie6 fieldset legend {
   margin-left: -7px;
 }
 
-/* line 1767, sass/_Oxygen.scss */
+/* line 1766, sass/_Oxygen.scss */
 .ie6 #brd-wrap .checklist {
   height: 9em;
   width: 30em;
   overflow: auto;
 }
 
-/* line 1772, sass/_Oxygen.scss */
+/* line 1771, sass/_Oxygen.scss */
 .ie6 .sf-set .checkbox label span {
   padding-right: 0;
   padding-left: 5em;
 }
 
-/* line 1776, sass/_Oxygen.scss */
+/* line 1775, sass/_Oxygen.scss */
 .ie6 #info-censored-intro,
 .ie6 #info-ranks-intro {
   margin-bottom: 3em;
 }
 
-/* line 1780, sass/_Oxygen.scss */
+/* line 1779, sass/_Oxygen.scss */
 .ie6 .important strong {
   margin-right: 1ex;
 }
 
-/* line 1783, sass/_Oxygen.scss */
+/* line 1782, sass/_Oxygen.scss */
 .ie6 #brd-stats .st-users {
   margin-bottom: -1ex;
 }
 
-/* line 1786, sass/_Oxygen.scss */
+/* line 1785, sass/_Oxygen.scss */
 .ie6 .txt-box label span {
   position: absolute;
 }
 
-/* line 1789, sass/_Oxygen.scss */
+/* line 1788, sass/_Oxygen.scss */
 .ie6 #brd-index .main-head {
   position: relative;
 }
 
-/* line 1792, sass/_Oxygen.scss */
+/* line 1791, sass/_Oxygen.scss */
 .ie6 input {
   vertical-align: text-bottom;
 }
 
-/* line 1795, sass/_Oxygen.scss */
+/* line 1794, sass/_Oxygen.scss */
 .ie6 #extensions-used {
   clear: left;
 }
 
-/* line 1798, sass/_Oxygen.scss */
+/* line 1797, sass/_Oxygen.scss */
 .oldie textarea {
   overflow: auto;
 }
 
-/* line 1801, sass/_Oxygen.scss */
+/* line 1800, sass/_Oxygen.scss */
 .ie7 .brd-page,
 .ie7 .main,
 .ie7 #brd-index .main-subhead,
@@ -2541,34 +2540,34 @@ td.actions span {
   zoom: 1;
 }
 
-/* line 1829, sass/_Oxygen.scss */
+/* line 1828, sass/_Oxygen.scss */
 .ie7 #brd-wrap fieldset {
   padding-top: 1px;
   position: relative;
 }
 
-/* line 1833, sass/_Oxygen.scss */
+/* line 1832, sass/_Oxygen.scss */
 .ie7 fieldset legend {
   margin-left: -7px;
 }
 
-/* line 1836, sass/_Oxygen.scss */
+/* line 1835, sass/_Oxygen.scss */
 .ie7 .entry-content .codebox pre {
   min-height: 3em;
 }
 
-/* line 1839, sass/_Oxygen.scss */
+/* line 1838, sass/_Oxygen.scss */
 .ie7 #info-censored-intro,
 .ie7 #info-ranks-intro {
   margin-bottom: 3em;
 }
 
-/* line 1843, sass/_Oxygen.scss */
+/* line 1842, sass/_Oxygen.scss */
 .ie7 .main-forum .main-item .item-starter {
   margin-left: 1ex;
 }
 
-/* line 1846, sass/_Oxygen.scss */
+/* line 1845, sass/_Oxygen.scss */
 .ie7 #brd-admin-settings-setup #fld19,
 .ie7 #brd-post textarea#fld1,
 .ie7 #brd-post textarea#fld2,
@@ -2577,20 +2576,20 @@ td.actions span {
   margin-top: -19px;
 }
 
-/* line 1853, sass/_Oxygen.scss */
+/* line 1852, sass/_Oxygen.scss */
 .ie7 .item-starter {
   position: relative;
   left: -0.5em;
 }
 
-/* line 1857, sass/_Oxygen.scss */
+/* line 1856, sass/_Oxygen.scss */
 .ie7 input[type="checkbox"] {
   vertical-align: baseline;
 }
 
 /** REMOVED COLOURS **/
 /*nav*/
-/* line 1864, sass/_Oxygen.scss */
+/* line 1863, sass/_Oxygen.scss */
 .fixed {
   position: fixed;
   width: 100%;
@@ -2598,7 +2597,7 @@ td.actions span {
   left: 0;
 }
 
-/* line 1871, sass/_Oxygen.scss */
+/* line 1870, sass/_Oxygen.scss */
 .nav-collapse,
 .nav-collapse * {
   -moz-box-sizing: border-box;
@@ -2613,7 +2612,7 @@ td.actions span {
   font-weight: normal;
   font-style: normal;
 }
-/* line 1890, sass/_Oxygen.scss */
+/* line 1889, sass/_Oxygen.scss */
 a.nav-toggle {
   display: block;
   padding: 0.43em 1.45em;
@@ -2643,13 +2642,13 @@ a.nav-toggle {
   background-image: linear-gradient(bottom, #2a6ab8 0, #4795cc 100%);
 }
 
-/* line 1911, sass/_Oxygen.scss */
+/* line 1910, sass/_Oxygen.scss */
 a.nav-toggle:hover, a.nav-toggle:focus {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 1913, sass/_Oxygen.scss */
+/* line 1912, sass/_Oxygen.scss */
 .nav-toggle:before {
   color: #fff;
   font-family: "responsivenav", sans-serif;
@@ -2669,13 +2668,13 @@ a.nav-toggle:hover, a.nav-toggle:focus {
   right: 0;
 }
 
-/* line 1932, sass/_Oxygen.scss */
+/* line 1931, sass/_Oxygen.scss */
 .nav-toggle.active::before {
   font-size: 24px;
   content: "x";
 }
 
-/* line 1939, sass/_Oxygen.scss */
+/* line 1938, sass/_Oxygen.scss */
 .js .nav-collapse {
   clip: rect(0 0 0 0);
   max-height: 0;
@@ -2685,12 +2684,12 @@ a.nav-toggle:hover, a.nav-toggle:focus {
   zoom: 1;
 }
 
-/* line 1948, sass/_Oxygen.scss */
+/* line 1947, sass/_Oxygen.scss */
 .nav-collapse.opened {
   max-height: 9999px;
 }
 
-/* line 1952, sass/_Oxygen.scss */
+/* line 1951, sass/_Oxygen.scss */
 .nav-toggle {
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
@@ -2702,22 +2701,22 @@ a.nav-toggle:hover, a.nav-toggle:focus {
 }
 
 @media screen and (min-width: 600px) {
-  /* line 1963, sass/_Oxygen.scss */
+  /* line 1962, sass/_Oxygen.scss */
   .js .nav-collapse {
     position: relative;
   }
 
-  /* line 1966, sass/_Oxygen.scss */
+  /* line 1965, sass/_Oxygen.scss */
   .js .nav-collapse.closed {
     max-height: none;
   }
 
-  /* line 1969, sass/_Oxygen.scss */
+  /* line 1968, sass/_Oxygen.scss */
   a.nav-toggle {
     display: none;
   }
 }
-/* line 1987, sass/_Oxygen.scss */
+/* line 1986, sass/_Oxygen.scss */
 .post-entry .entry-title {
   text-indent: 0;
   visibility: visible;
@@ -2727,7 +2726,7 @@ a.nav-toggle:hover, a.nav-toggle:focus {
   position: static;
 }
 
-/* line 1995, sass/_Oxygen.scss */
+/* line 1994, sass/_Oxygen.scss */
 .main-content .main-item .item-starter,
 .main-content .main-item .info-lastpost cite {
   display: block;
@@ -2738,7 +2737,7 @@ a.nav-toggle:hover, a.nav-toggle:focus {
   width: 100%;
 }
 
-/* line 1997, sass/_Oxygen.scss */
+/* line 1996, sass/_Oxygen.scss */
 .username, .nickname {
   display: block;
   white-space: nowrap;
@@ -2748,7 +2747,7 @@ a.nav-toggle:hover, a.nav-toggle:focus {
   width: 100%;
 }
 
-/* line 1998, sass/_Oxygen.scss */
+/* line 1997, sass/_Oxygen.scss */
 .posthead .post-byline a, .posthead .post-byline strong {
   display: block;
   white-space: nowrap;
@@ -2758,30 +2757,30 @@ a.nav-toggle:hover, a.nav-toggle:focus {
 }
 
 @media screen and (max-width: 1000px) {
-  /* line 2001, sass/_Oxygen.scss */
+  /* line 2000, sass/_Oxygen.scss */
   .forum-forums .main-item ul {
     width: 42em;
     right: -43em;
     margin-left: -42em;
   }
 
-  /* line 2002, sass/_Oxygen.scss */
+  /* line 2001, sass/_Oxygen.scss */
   .forum-forums .main-item {
     padding-right: 43em;
   }
 
-  /* line 2003, sass/_Oxygen.scss */
+  /* line 2002, sass/_Oxygen.scss */
   .forum-forums li.info-forum {
     width: 15em;
   }
 }
 @media screen and (max-width: 760px) {
-  /* line 2007, sass/_Oxygen.scss */
+  /* line 2006, sass/_Oxygen.scss */
   html {
     min-width: 320px;
   }
 
-  /* line 2008, sass/_Oxygen.scss */
+  /* line 2007, sass/_Oxygen.scss */
   .brd {
     padding-left: 0;
     padding-right: 0;
@@ -2789,142 +2788,142 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     width: auto;
   }
 
-  /* line 2009, sass/_Oxygen.scss */
+  /* line 2008, sass/_Oxygen.scss */
   #brd-visit #visit-links {
     clear: left;
     text-align: left;
   }
 
   /*main-content*/
-  /* line 2012, sass/_Oxygen.scss */
+  /* line 2011, sass/_Oxygen.scss */
   li.info-topics, li.info-posts, li.info-views, li.info-replies {
     width: 5em;
   }
 
-  /* line 2013, sass/_Oxygen.scss */
+  /* line 2012, sass/_Oxygen.scss */
   li.info-lastpost {
     width: 9em;
     padding-right: 1em;
   }
 
-  /* line 2014, sass/_Oxygen.scss */
+  /* line 2013, sass/_Oxygen.scss */
   li.info-lastpost strong {
     display: block;
   }
 
-  /* line 2016, sass/_Oxygen.scss */
+  /* line 2015, sass/_Oxygen.scss */
   .main-content .main-item ul {
     margin-left: -20em;
     right: -21em;
     width: 20em;
   }
 
-  /* line 2017, sass/_Oxygen.scss */
+  /* line 2016, sass/_Oxygen.scss */
   .main-content .main-item {
     padding-right: 21em;
   }
 
-  /* line 2018, sass/_Oxygen.scss */
+  /* line 2017, sass/_Oxygen.scss */
   .item-summary .info-topics, .item-summary .info-replies {
     width: 5em;
     left: 979em;
   }
 
-  /* line 2019, sass/_Oxygen.scss */
+  /* line 2018, sass/_Oxygen.scss */
   .item-summary .info-posts, .item-summary .info-views {
     width: 5em;
     left: 984em;
   }
 
-  /* line 2020, sass/_Oxygen.scss */
+  /* line 2019, sass/_Oxygen.scss */
   .item-summary .info-lastpost {
     left: 989em;
   }
 
-  /* line 2021, sass/_Oxygen.scss */
+  /* line 2020, sass/_Oxygen.scss */
   .item-summary .info-forum {
     width: 15em;
     left: 969em;
   }
 
-  /* line 2022, sass/_Oxygen.scss */
+  /* line 2021, sass/_Oxygen.scss */
   p.forum-noview .info-replies {
     left: 984em;
   }
 
-  /* line 2024, sass/_Oxygen.scss */
+  /* line 2023, sass/_Oxygen.scss */
   .forum-forums .main-item ul {
     margin-left: -30em;
     right: -31em;
     width: 30em;
   }
 
-  /* line 2025, sass/_Oxygen.scss */
+  /* line 2024, sass/_Oxygen.scss */
   .forum-forums .main-item {
     padding-right: 31em;
   }
 
-  /* line 2026, sass/_Oxygen.scss */
+  /* line 2025, sass/_Oxygen.scss */
   li.info-forum {
     width: 15em;
   }
 
-  /* line 2027, sass/_Oxygen.scss */
+  /* line 2026, sass/_Oxygen.scss */
   .main-item .item-subject, .main-content .main-item li {
     margin-bottom: -19.7em;
     padding-bottom: 20.4em;
   }
 
-  /* line 2028, sass/_Oxygen.scss */
+  /* line 2027, sass/_Oxygen.scss */
   .post-title small, .post-title small a {
     white-space: normal;
   }
 
-  /* line 2029, sass/_Oxygen.scss */
+  /* line 2028, sass/_Oxygen.scss */
   .crumbs span, .crumbs a {
     white-space: normal;
   }
 
-  /* line 2030, sass/_Oxygen.scss */
+  /* line 2029, sass/_Oxygen.scss */
   .crumbs {
     overflow: hidden;
   }
 
   /*post*/
-  /* line 2034, sass/_Oxygen.scss */
+  /* line 2033, sass/_Oxygen.scss */
   .postbody, .posthead {
     margin-left: 15em;
   }
 
-  /* line 2035, sass/_Oxygen.scss */
+  /* line 2034, sass/_Oxygen.scss */
   .postbody {
     overflow: hidden;
   }
 
-  /* line 2036, sass/_Oxygen.scss */
+  /* line 2035, sass/_Oxygen.scss */
   .postfoot {
     padding-left: 15em;
   }
 
-  /* line 2037, sass/_Oxygen.scss */
+  /* line 2036, sass/_Oxygen.scss */
   .postbody .post-author, .posthead .post-byline {
     width: 12.5em;
     margin-left: -16em;
   }
 
-  /* line 2038, sass/_Oxygen.scss */
+  /* line 2037, sass/_Oxygen.scss */
   .postfoot .post-contacts {
     width: 12.5em;
     margin-left: -15em;
   }
 
-  /* line 2039, sass/_Oxygen.scss */
+  /* line 2038, sass/_Oxygen.scss */
   .postfoot .post-actions {
     text-align: left;
     float: none;
   }
 
-  /* line 2040, sass/_Oxygen.scss */
+  /* line 2039, sass/_Oxygen.scss */
   .postfoot .post-actions > span {
     margin: 0;
     margin-bottom: 0.5em;
@@ -2932,7 +2931,7 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     vertical-align: top;
   }
 
-  /* line 2041, sass/_Oxygen.scss */
+  /* line 2040, sass/_Oxygen.scss */
   .postfoot .post-actions a {
     display: inline-block;
     vertical-align: baseline;
@@ -2956,7 +2955,7 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     background-image: linear-gradient(top, #5cb7f7, #4897d9);
   }
 
-  /* line 2063, sass/_Oxygen.scss */
+  /* line 2062, sass/_Oxygen.scss */
   .postfoot .post-actions a:hover {
     color: #fff;
     text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
@@ -2972,54 +2971,54 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
   }
 
-  /* line 2078, sass/_Oxygen.scss */
+  /* line 2077, sass/_Oxygen.scss */
   .fld-input {
     display: inline-block;
     max-width: 100%;
   }
 
-  /* line 2079, sass/_Oxygen.scss */
+  /* line 2078, sass/_Oxygen.scss */
   .fld-input input, .fld-input select {
     max-width: 100%;
   }
 
-  /* line 2081, sass/_Oxygen.scss */
+  /* line 2080, sass/_Oxygen.scss */
   p.options {
     float: none;
     margin-top: 0;
   }
 
-  /* line 2082, sass/_Oxygen.scss */
+  /* line 2081, sass/_Oxygen.scss */
   .options a:link {
     /*white-space:nowrap;*/
     line-height: 1.5;
   }
 
-  /* line 2083, sass/_Oxygen.scss */
+  /* line 2082, sass/_Oxygen.scss */
   .options > span {
     display: inline-block;
     padding: 0 0.3em 0 0;
     margin: 0.25em 0.25em 0.25em 0;
   }
 
-  /* line 2085, sass/_Oxygen.scss */
+  /* line 2084, sass/_Oxygen.scss */
   .frm-buttons > .submit {
     margin: 0;
     display: inline-block;
   }
 
   /*footer*/
-  /* line 2088, sass/_Oxygen.scss */
+  /* line 2087, sass/_Oxygen.scss */
   #brd-about, #brd-stats {
     padding: 0 1.5em 1em;
   }
 
-  /* line 2089, sass/_Oxygen.scss */
+  /* line 2088, sass/_Oxygen.scss */
   #qjump {
     padding: 0;
   }
 
-  /* line 2090, sass/_Oxygen.scss */
+  /* line 2089, sass/_Oxygen.scss */
   #brd-stats ul li.st-users, #brd-stats ul li.st-activity {
     float: none;
     white-space: normal;
@@ -3028,25 +3027,25 @@ a.nav-toggle:hover, a.nav-toggle:focus {
 }
 @media screen and (max-width: 850px) {
   /*forum edit*/
-  /* line 2094, sass/_Oxygen.scss */
+  /* line 2093, sass/_Oxygen.scss */
   .frm-hdgroup {
     padding-top: 0;
   }
 
-  /* line 2095, sass/_Oxygen.scss */
+  /* line 2094, sass/_Oxygen.scss */
   .frm-hdgroup .mf-set {
     padding-left: 0;
     border-bottom: 1px solid #DBE0E4;
   }
 
-  /* line 2096, sass/_Oxygen.scss */
+  /* line 2095, sass/_Oxygen.scss */
   .frm-hdgroup .mf-set legend {
     display: block;
     height: auto;
     position: static;
   }
 
-  /* line 2097, sass/_Oxygen.scss */
+  /* line 2096, sass/_Oxygen.scss */
   .frm-hdgroup .mf-set legend span {
     position: static;
     width: auto;
@@ -3055,7 +3054,7 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     display: block;
   }
 
-  /* line 2098, sass/_Oxygen.scss */
+  /* line 2097, sass/_Oxygen.scss */
   .mf-set .mf-field label, .mf-set .mf-field .aslabel {
     position: static;
     top: auto;
@@ -3067,20 +3066,20 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     display: none;
   }
 
-  /* line 2099, sass/_Oxygen.scss */
+  /* line 2098, sass/_Oxygen.scss */
   .mf-set .mf-field {
     float: none;
     border: none;
     padding: 0;
   }
 
-  /* line 2100, sass/_Oxygen.scss */
+  /* line 2099, sass/_Oxygen.scss */
   .mf-set .mf-field .fld-input {
     display: inline-block;
     float: right;
   }
 
-  /* line 2101, sass/_Oxygen.scss */
+  /* line 2100, sass/_Oxygen.scss */
   .mf-set .mf-box .forum-field {
     width: auto;
     float: left;
@@ -3088,30 +3087,30 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     font-size: 1.2em;
   }
 
-  /* line 2102, sass/_Oxygen.scss */
+  /* line 2101, sass/_Oxygen.scss */
   .mf-set .mf-field .fld-input input {
     width: 100px;
   }
 
-  /* line 2103, sass/_Oxygen.scss */
+  /* line 2102, sass/_Oxygen.scss */
   .mf-set legend span {
     font-weight: normal;
   }
 
-  /* line 2105, sass/_Oxygen.scss */
+  /* line 2104, sass/_Oxygen.scss */
   .frm-form .mf-set .mf-field .fld-input {
     float: none;
     display: block;
     margin-bottom: 1em;
   }
 
-  /* line 2106, sass/_Oxygen.scss */
+  /* line 2105, sass/_Oxygen.scss */
   .frm-form .mf-set .mf-field .fld-input input {
     width: 90%;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 915px) {
-  /* line 2110, sass/_Oxygen.scss */
+  /* line 2109, sass/_Oxygen.scss */
   #brd-navlinks ul, ul#brd-admod {
     float: none;
     display: inline;
@@ -3119,31 +3118,31 @@ a.nav-toggle:hover, a.nav-toggle:focus {
 }
 @media screen and (max-width: 600px) {
   /*body*/
-  /* line 2115, sass/_Oxygen.scss */
+  /* line 2114, sass/_Oxygen.scss */
   body {
     font-size: 1.2em;
   }
 
   /*header*/
-  /* line 2117, sass/_Oxygen.scss */
+  /* line 2116, sass/_Oxygen.scss */
   #brd-head {
     display: none !important;
   }
 
   /*nav*/
-  /* line 2119, sass/_Oxygen.scss */
+  /* line 2118, sass/_Oxygen.scss */
   ul#brd-admod, #brd-navlinks ul, #brd-navlinks ul, .main-menu ul, .admin-menu ul {
     float: none;
   }
 
-  /* line 2120, sass/_Oxygen.scss */
+  /* line 2119, sass/_Oxygen.scss */
   #brd-navlinks, .main-menu, .admin-menu {
     padding-left: 0;
     padding-right: 0;
     font-size: 1.2em;
   }
 
-  /* line 2121, sass/_Oxygen.scss */
+  /* line 2120, sass/_Oxygen.scss */
   #brd-navlinks li, .main-menu li, .admin-menu li, #brd-navlinks a, .main-menu
   a, .admin-menu a {
     float: none;
@@ -3152,34 +3151,34 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     padding: 0;
   }
 
-  /* line 2123, sass/_Oxygen.scss */
+  /* line 2122, sass/_Oxygen.scss */
   #brd-navlinks a, .main-menu a, .admin-menu a {
     padding: 0.43em 1.45em;
   }
 
-  /* line 2124, sass/_Oxygen.scss */
+  /* line 2123, sass/_Oxygen.scss */
   #brd-navlinks li, .main-menu li, .admin-menu li {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  /* line 2126, sass/_Oxygen.scss */
+  /* line 2125, sass/_Oxygen.scss */
   #brd-navlinks li + li, .main-menu li + li, .admin-menu li + li {
     display: none;
   }
 
-  /* line 2127, sass/_Oxygen.scss */
+  /* line 2126, sass/_Oxygen.scss */
   #brd-navlinks.nav-collapse li + li, .main-menu.nav-collapse li + li, .admin-menu.nav-collapse li + li {
     display: block;
   }
 
   /*admin-submenu*/
-  /* line 2130, sass/_Oxygen.scss */
+  /* line 2129, sass/_Oxygen.scss */
   .admin-submenu {
     font-size: 1.2em;
     line-height: 1.5;
   }
 
-  /* line 2131, sass/_Oxygen.scss */
+  /* line 2130, sass/_Oxygen.scss */
   .admin-submenu li {
     margin-right: 0.5em;
     display: inline-block;
@@ -3187,182 +3186,182 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     margin-top: 0.25em;
   }
 
-  /* line 2132, sass/_Oxygen.scss */
+  /* line 2131, sass/_Oxygen.scss */
   .admin-submenu a {
     display: inline-block;
     white-space: nowrap;
   }
 
-  /* line 2134, sass/_Oxygen.scss */
+  /* line 2133, sass/_Oxygen.scss */
   .main-head .hn {
     padding-right: 0;
   }
 
   /*main-content*/
-  /* line 2137, sass/_Oxygen.scss */
+  /* line 2136, sass/_Oxygen.scss */
   li.info-topics, li.info-posts, li.info-views, li.info-replies {
     display: none;
   }
 
-  /* line 2138, sass/_Oxygen.scss */
+  /* line 2137, sass/_Oxygen.scss */
   .main-content .main-item ul {
     margin-left: -10em;
     right: -11em;
     width: 10em;
   }
 
-  /* line 2139, sass/_Oxygen.scss */
+  /* line 2138, sass/_Oxygen.scss */
   .main-content .main-item {
     padding-right: 11em;
   }
 
-  /* line 2141, sass/_Oxygen.scss */
+  /* line 2140, sass/_Oxygen.scss */
   .item-summary .info-topics, .item-summary .info-replies,
   .item-summary .info-posts, .item-summary .info-views {
     display: none;
   }
 
-  /* line 2143, sass/_Oxygen.scss */
+  /* line 2142, sass/_Oxygen.scss */
   .item-summary .info-forum {
     width: 15em;
     left: 975em;
   }
 
-  /* line 2144, sass/_Oxygen.scss */
+  /* line 2143, sass/_Oxygen.scss */
   p.forum-noview .info-replies {
     display: none;
   }
 
-  /* line 2145, sass/_Oxygen.scss */
+  /* line 2144, sass/_Oxygen.scss */
   .item-summary .info-lastpost {
     width: 9em;
     padding-left: 1em;
   }
 
-  /* line 2147, sass/_Oxygen.scss */
+  /* line 2146, sass/_Oxygen.scss */
   .forum-forums .main-item ul {
     margin-left: -25em;
     right: -26em;
     width: 25em;
   }
 
-  /* line 2148, sass/_Oxygen.scss */
+  /* line 2147, sass/_Oxygen.scss */
   .forum-forums .main-item {
     padding-right: 26em;
   }
 
-  /* line 2149, sass/_Oxygen.scss */
+  /* line 2148, sass/_Oxygen.scss */
   .postbody {
     padding-right: 1em;
   }
 
-  /* line 2150, sass/_Oxygen.scss */
+  /* line 2149, sass/_Oxygen.scss */
   .entry-content .codebox {
     font-size: 0.8em;
   }
 
-  /* line 2151, sass/_Oxygen.scss */
+  /* line 2150, sass/_Oxygen.scss */
   .entry-content pre {
     padding-right: 0.8em;
   }
 
-  /* line 2152, sass/_Oxygen.scss */
+  /* line 2151, sass/_Oxygen.scss */
   .posthead .post-byline a, .posthead .post-byline strong {
     font-size: 0.8em;
   }
 
   /*footer*/
-  /* line 2155, sass/_Oxygen.scss */
+  /* line 2154, sass/_Oxygen.scss */
   #copyright {
     text-align: center;
   }
 
-  /* line 2156, sass/_Oxygen.scss */
+  /* line 2155, sass/_Oxygen.scss */
   #qjump {
     float: none;
   }
 
-  /* line 2157, sass/_Oxygen.scss */
+  /* line 2156, sass/_Oxygen.scss */
   #qjump .frm-input {
     display: block;
     line-height: 0;
   }
 
-  /* line 2158, sass/_Oxygen.scss */
+  /* line 2157, sass/_Oxygen.scss */
   #qjump-submit {
     height: 0;
     padding: 0;
   }
 
-  /* line 2159, sass/_Oxygen.scss */
+  /* line 2158, sass/_Oxygen.scss */
   #brd-about #qjump-select, #brd-stats #qjump-select {
     width: 100%;
   }
 
   /*post*/
-  /* line 2162, sass/_Oxygen.scss */
+  /* line 2161, sass/_Oxygen.scss */
   .postbody, .posthead {
     margin-left: 10em;
   }
 
-  /* line 2163, sass/_Oxygen.scss */
+  /* line 2162, sass/_Oxygen.scss */
   .postfoot {
     padding-left: 10em;
   }
 
-  /* line 2164, sass/_Oxygen.scss */
+  /* line 2163, sass/_Oxygen.scss */
   .postbody .post-author, .posthead .post-byline {
     width: 7.5em;
     margin-left: -11em;
   }
 
-  /* line 2165, sass/_Oxygen.scss */
+  /* line 2164, sass/_Oxygen.scss */
   .postfoot .post-contacts {
     width: 7.5em;
     margin-left: -10em;
   }
 
-  /* line 2166, sass/_Oxygen.scss */
+  /* line 2165, sass/_Oxygen.scss */
   .postbody .post-author ul.author-info {
     display: none;
   }
 
-  /* line 2167, sass/_Oxygen.scss */
+  /* line 2166, sass/_Oxygen.scss */
   p.posting {
     text-align: left;
     float: none;
     clear: both;
   }
 
-  /* line 2168, sass/_Oxygen.scss */
+  /* line 2167, sass/_Oxygen.scss */
   .item-newposts {
     margin: 0 -0.3em;
     font-size: 0.9em;
   }
 
   /*form set*/
-  /* line 2172, sass/_Oxygen.scss */
+  /* line 2171, sass/_Oxygen.scss */
   .ct-box {
     padding: 0.5em 0;
   }
 
-  /* line 2173, sass/_Oxygen.scss */
+  /* line 2172, sass/_Oxygen.scss */
   .main-frm .ct-box {
     padding: 0.5em 1em;
   }
 
-  /* line 2174, sass/_Oxygen.scss */
+  /* line 2173, sass/_Oxygen.scss */
   .sf-set, .mf-set, .txt-set, .ct-set {
     padding-left: 0;
   }
 
-  /* line 2175, sass/_Oxygen.scss */
+  /* line 2174, sass/_Oxygen.scss */
   .txt-box label,
   .sf-box label, .sf-box .aslabel {
     float: none;
   }
 
-  /* line 2177, sass/_Oxygen.scss */
+  /* line 2176, sass/_Oxygen.scss */
   .txt-set label span,
   .sf-set .text label span,
   .sf-set .select label span,
@@ -3375,41 +3374,41 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     margin: 0 0 2em 0;
   }
 
-  /* line 2182, sass/_Oxygen.scss */
+  /* line 2181, sass/_Oxygen.scss */
   .txt-set .fld-input {
     padding: 0;
   }
 
-  /* line 2183, sass/_Oxygen.scss */
+  /* line 2182, sass/_Oxygen.scss */
   .sf-set .fld-input {
     padding: 0;
     top: 2.3em;
   }
 
-  /* line 2184, sass/_Oxygen.scss */
+  /* line 2183, sass/_Oxygen.scss */
   .sf-set .text label small, .sf-set .select label small {
     margin-left: 0;
   }
 
-  /* line 2185, sass/_Oxygen.scss */
+  /* line 2184, sass/_Oxygen.scss */
   .frm-buttons {
     padding-left: 0;
   }
 
-  /* line 2186, sass/_Oxygen.scss */
+  /* line 2185, sass/_Oxygen.scss */
   .sf-box.checkbox .fld-input {
     top: 0.5em;
     left: 0.5em;
   }
 
-  /* line 2187, sass/_Oxygen.scss */
+  /* line 2186, sass/_Oxygen.scss */
   .mf-set legend {
     position: static;
     height: auto;
     display: block;
   }
 
-  /* line 2188, sass/_Oxygen.scss */
+  /* line 2187, sass/_Oxygen.scss */
   .mf-set legend span {
     position: static;
     width: auto;
@@ -3419,12 +3418,12 @@ a.nav-toggle:hover, a.nav-toggle:focus {
   }
 
   /*user page*/
-  /* line 2190, sass/_Oxygen.scss */
+  /* line 2189, sass/_Oxygen.scss */
   .ct-group .ct-set {
     padding-left: 0;
   }
 
-  /* line 2191, sass/_Oxygen.scss */
+  /* line 2190, sass/_Oxygen.scss */
   .ct-set .ct-legend {
     float: none;
     margin: 0;
@@ -3432,12 +3431,12 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     text-align: left;
   }
 
-  /* line 2192, sass/_Oxygen.scss */
+  /* line 2191, sass/_Oxygen.scss */
   .checklist {
     margin: 0;
   }
 
-  /* line 2193, sass/_Oxygen.scss */
+  /* line 2192, sass/_Oxygen.scss */
   .button-set .submit {
     padding-left: 0;
   }
@@ -3450,7 +3449,7 @@ a.nav-toggle:hover, a.nav-toggle:focus {
 	#brd-userlist table .tc3{width:auto; padding: 0.4em 0.5em;}
 	#brd-userlist table .tc2{width:7%; min-width:50px;}
   */
-  /* line 2203, sass/_Oxygen.scss */
+  /* line 2202, sass/_Oxygen.scss */
   #brd-userlist table,
   #brd-userlist table tbody,
   #brd-userlist table thead,
@@ -3459,79 +3458,79 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     display: block;
   }
 
-  /* line 2208, sass/_Oxygen.scss */
+  /* line 2207, sass/_Oxygen.scss */
   #brd-userlist table th {
     display: none;
   }
 
-  /* line 2209, sass/_Oxygen.scss */
+  /* line 2208, sass/_Oxygen.scss */
   #brd-userlist table td {
     display: block;
     width: auto !important;
     text-align: left !important;
   }
 
-  /* line 2210, sass/_Oxygen.scss */
+  /* line 2209, sass/_Oxygen.scss */
   #brd-userlist table .even td {
     background: rgba(0, 0, 0, 0.02);
   }
 }
 @media screen and (max-width: 560px) {
   /*main-content*/
-  /* line 2217, sass/_Oxygen.scss */
+  /* line 2216, sass/_Oxygen.scss */
   li.info-forum {
     width: 10em;
     display: none;
   }
 
-  /* line 2218, sass/_Oxygen.scss */
+  /* line 2217, sass/_Oxygen.scss */
   .item-summary .info-forum {
     width: 10em;
     left: 979em;
     display: none;
   }
 
-  /* line 2219, sass/_Oxygen.scss */
+  /* line 2218, sass/_Oxygen.scss */
   .forum-forums .main-item ul {
     margin-left: -10em;
     right: -11em;
     width: 10em;
   }
 
-  /* line 2220, sass/_Oxygen.scss */
+  /* line 2219, sass/_Oxygen.scss */
   .forum-forums .main-item {
     padding-right: 11em;
   }
 
-  /* line 2221, sass/_Oxygen.scss */
+  /* line 2220, sass/_Oxygen.scss */
   .author-ident .usertitle {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 460px) {
   /*main-content*/
-  /* line 2225, sass/_Oxygen.scss */
+  /* line 2224, sass/_Oxygen.scss */
   li.info-posts, li.info-views {
     display: none;
   }
 
-  /* line 2226, sass/_Oxygen.scss */
+  /* line 2225, sass/_Oxygen.scss */
   li.info-lastpost {
     display: none;
   }
 
-  /* line 2227, sass/_Oxygen.scss */
+  /* line 2226, sass/_Oxygen.scss */
   .item-summary .info-lastpost {
     display: none;
   }
 
-  /* line 2228, sass/_Oxygen.scss */
+  /* line 2227, sass/_Oxygen.scss */
   .item-summary .info-posts, .item-summary .info-views {
     /*display:block; left:994em; top:0;*/
     display: none;
   }
 
-  /* line 2230, sass/_Oxygen.scss */
+  /* line 2229, sass/_Oxygen.scss */
   .main-content .main-item ul {
     margin-left: -5em;
     right: -6em;
@@ -3539,61 +3538,61 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     display: none;
   }
 
-  /* line 2231, sass/_Oxygen.scss */
+  /* line 2230, sass/_Oxygen.scss */
   .main-content .main-item {
     padding-right: 0;
   }
 
-  /* line 2233, sass/_Oxygen.scss */
+  /* line 2232, sass/_Oxygen.scss */
   li.info-forum {
     display: none;
   }
 
-  /* line 2234, sass/_Oxygen.scss */
+  /* line 2233, sass/_Oxygen.scss */
   .forum-forums .main-item ul {
     margin-left: -10em;
     right: -11em;
     width: 10em;
   }
 
-  /* line 2235, sass/_Oxygen.scss */
+  /* line 2234, sass/_Oxygen.scss */
   .forum-forums .main-item {
     padding-right: 11em;
   }
 
-  /* line 2236, sass/_Oxygen.scss */
+  /* line 2235, sass/_Oxygen.scss */
   .item-summary .info-forum {
     display: none;
   }
 
-  /* line 2237, sass/_Oxygen.scss */
+  /* line 2236, sass/_Oxygen.scss */
   p.forum-noview .info-lastpost {
     display: block;
     top: 0;
   }
 
-  /* line 2238, sass/_Oxygen.scss */
+  /* line 2237, sass/_Oxygen.scss */
   .forum-forums li.info-lastpost {
     display: block;
   }
 
   /*post*/
-  /* line 2241, sass/_Oxygen.scss */
+  /* line 2240, sass/_Oxygen.scss */
   .postbody, .posthead {
     margin-left: 100px;
   }
 
-  /* line 2242, sass/_Oxygen.scss */
+  /* line 2241, sass/_Oxygen.scss */
   .postbody, .posthead .hn {
     padding-left: 10px;
   }
 
-  /* line 2243, sass/_Oxygen.scss */
+  /* line 2242, sass/_Oxygen.scss */
   .postfoot {
     padding-left: 100px;
   }
 
-  /* line 2244, sass/_Oxygen.scss */
+  /* line 2243, sass/_Oxygen.scss */
   .postbody .post-author, .posthead .post-byline {
     width: 80px;
     margin-left: -110px;
@@ -3601,7 +3600,7 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     padding-right: 10px;
   }
 
-  /* line 2245, sass/_Oxygen.scss */
+  /* line 2244, sass/_Oxygen.scss */
   .postfoot .post-contacts {
     width: 80px;
     margin-left: -100px;
@@ -3609,7 +3608,7 @@ a.nav-toggle:hover, a.nav-toggle:focus {
     padding-right: 10px;
   }
 
-  /* line 2246, sass/_Oxygen.scss */
+  /* line 2245, sass/_Oxygen.scss */
   .author-ident .usertitle {
     font-weight: normal;
   }
@@ -3988,7 +3987,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 390, sass/ajb007.scss */
 .main-head,
-.main-foot {
+.main-foot,
+.main-menu,
+.admin-menu {
   background: #4C6174;
   color: #ddd;
   border-color: #4C6174;
@@ -4001,19 +4002,19 @@ h1, h2, h3, h4, h5, h6 {
 	border-color: #BBBBBB;
 	}
 */
-/* line 404, sass/ajb007.scss */
+/* line 406, sass/ajb007.scss */
 .brd .main-subhead {
   border-color: #999999;
   background: #999999;
   color: #000;
 }
 
-/* line 410, sass/ajb007.scss */
+/* line 412, sass/ajb007.scss */
 .main-category, .main-item, .main-forum, .main-topic, .posthead, .postbody, .postfoot div {
   border-color: #999999;
 }
 
-/* line 414, sass/ajb007.scss */
+/* line 416, sass/ajb007.scss */
 .main-item .item-subject, .main-content .main-item li {
   border-left-style: none;
   border-left-width: 1px;
@@ -4024,12 +4025,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-/* line 424, sass/ajb007.scss */
+/* line 426, sass/ajb007.scss */
 .post {
   border-width: 0 0 1px 0;
 }
 
-/* line 428, sass/ajb007.scss */
+/* line 430, sass/ajb007.scss */
 .post-ident {
   border-color: #999999;
 }
@@ -4049,37 +4050,47 @@ h1, h2, h3, h4, h5, h6 {
 	border-color: #DBE0E4;
 	}
 */
-/* line 448, sass/ajb007.scss */
+/* line 450, sass/ajb007.scss */
 .options a:link, .options a:visited {
   color: #000;
   text-decoration: underline;
 }
 
-/* line 454, sass/ajb007.scss */
+/* line 456, sass/ajb007.scss */
 .options a:hover, .options a:active, .options a:focus {
   color: #000;
   text-decoration: none;
 }
 
-/* line 460, sass/ajb007.scss */
+/* line 462, sass/ajb007.scss */
 .main-head a:link, .main-head a:visited,
-.main-foot .options a:link, .main-foot .options a:visited {
+.main-foot .options a:link, .main-foot .options a:visited,
+.main-menu a:link, .main-menu a:visited,
+.admin-menu a:link, .admin-menu a:visited {
   color: #ccc;
   text-decoration: none;
 }
 
-/* line 466, sass/ajb007.scss */
-.main-head a:hover, .brd .main-head a:active, .brd .main-head a:focus,
-.main-foot .options a:hover, .main-foot .options a:active, .main-foot .options a:focus {
+/* line 471, sass/ajb007.scss */
+.main-head a:hover, .main-head a:active, .main-head a:focus,
+.main-foot .options a:hover, .main-foot .options a:active, .main-foot .options a:focus,
+.main-menu a:hover, .main-menu a:active, .main-menu a:focus,
+.admin-menu a:hover, .admin-menu a:active, .admin-menu a:focus {
   color: #fff;
   text-decoration: underline;
 }
 
-/*
-.brd th {
-	background: #999;
-	color: #000;
-	}*/
+/* line 480, sass/ajb007.scss */
+table td {
+  border-color: #999;
+}
+
+/* line 484, sass/ajb007.scss */
+table th {
+  background: #999;
+  color: #000;
+}
+
 /*.brd .main-frm .ct-group td {
 	background: #FBFBFB;
 	}*/
@@ -4088,42 +4099,42 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 /* Status indicators
 ----------------------------------------------------------------*/
-/* line 489, sass/ajb007.scss */
+/* line 501, sass/ajb007.scss */
 .main-content .main-item .icon {
   margin-top: 1em;
 }
 
-/* line 493, sass/ajb007.scss */
+/* line 505, sass/ajb007.scss */
 .main-content .main-item .icon {
   border-color: #EDF1F5 #DDE0E4 #C6CBD3 #BABFC6;
 }
 
-/* line 497, sass/ajb007.scss */
+/* line 509, sass/ajb007.scss */
 .main-content .redirect .icon {
   border-color: #f4f4f4 #f4f4f4 #f4f4f4 #f4f4f4;
 }
 
-/* line 501, sass/ajb007.scss */
+/* line 513, sass/ajb007.scss */
 .main-content .sticky .icon {
   border-color: #D7E5F3 #C3CFDC #9FB3C7 #90A2B4;
 }
 
-/* line 505, sass/ajb007.scss */
+/* line 517, sass/ajb007.scss */
 .main-content .closed .icon {
   border-color: #ACACAC #979797 #898989 #7A7A7A;
 }
 
-/* line 509, sass/ajb007.scss */
+/* line 521, sass/ajb007.scss */
 .main-content .sticky .closed .icon {
   border-color: #D7E5F3 #C3CFDC #898989 #7A7A7A;
 }
 
-/* line 513, sass/ajb007.scss */
+/* line 525, sass/ajb007.scss */
 .main-content .new .icon {
   border-color: #2B75AD #235E8C #1F537B #266799;
 }
 
-/* line 517, sass/ajb007.scss */
+/* line 529, sass/ajb007.scss */
 .main-content .moved .icon {
   border-color: #ACACAC #979797 #898989 #7A7A7A;
 }
@@ -4135,41 +4146,41 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 /* SiCo Custom Colours
 -------------------------------------------------------------*/
-/* line 531, sass/ajb007.scss */
+/* line 543, sass/ajb007.scss */
 li.info-lastpost cite {
   color: #999;
 }
 
-/* line 535, sass/ajb007.scss */
+/* line 547, sass/ajb007.scss */
 #brd-stats, #brd-online, #brd-about {
   color: #999;
   background-color: #474747;
   border-color: #474747;
 }
 
-/* line 541, sass/ajb007.scss */
+/* line 553, sass/ajb007.scss */
 #brd-online {
   margin-top: 0.1em;
 }
 
-/* line 545, sass/ajb007.scss */
+/* line 557, sass/ajb007.scss */
 #brd-about {
   padding: 1em 2.5em 1em 1em;
   padding-bottom: 2.5em;
 }
 
-/* line 550, sass/ajb007.scss */
+/* line 562, sass/ajb007.scss */
 #copyright {
   font-size: 0.8em;
 }
 
-/* line 554, sass/ajb007.scss */
+/* line 566, sass/ajb007.scss */
 #sico-footer {
   clear: both;
   padding-top: 2em;
 }
 
-/* line 559, sass/ajb007.scss */
+/* line 571, sass/ajb007.scss */
 #sico-footer p {
   font-size: 0.8em;
   line-height: normal;
@@ -4178,13 +4189,27 @@ li.info-lastpost cite {
   text-align: center;
 }
 
-/* line 567, sass/ajb007.scss */
+/* line 579, sass/ajb007.scss */
 #post-form, #brd-qpost {
   color: #000;
   background-color: #999;
   border-color: #999;
 }
 
+/* line 585, sass/ajb007.scss */
+.ct-group {
+  background: #000;
+  color: #e0e0e0;
+  margin: 0;
+  padding-top: 0.5em;
+  border: 0;
+}
+
+/*
+.ct-group table
+{
+    margin-top: 1em;
+}*/
 /*
 .brd .admin-page .ct-set .ct-box a:link, .brd .admin-page .ct-set .ct-box a:visited,
 .brd .content-options a:link, .brd .content-options a:visited,
@@ -4245,7 +4270,7 @@ a:hover.permalink, a:active.permalink, a:focus.permalink {
 	text-decoration: underline;
 	}
 */
-/* line 635, sass/ajb007.scss */
+/* line 661, sass/ajb007.scss */
 span.item-starter,
 div.sig-content {
   color: #999;
