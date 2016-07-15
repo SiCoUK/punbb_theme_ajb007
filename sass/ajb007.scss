@@ -103,21 +103,29 @@ h1, h2, h3, h4, h5, h6 {
 .brd .main-content .main-item .item-nav {
 	color: #888;
 	}
-
+*/
 .brd .main-content .sticky {
-	background: #333;
-	}
+    background: #333;
+}
 
-.brd .main-content .main-item .hn .item-status em.sticky ,
-.brd .main-content .main-item .hn .item-status em.closed{
-	color: #999;
-	font-weight: bold;
-	}
+.brd .main-content .moved,
+.brd .main-content .closed
+{
+    color: #999;
+}
 
-.brd .main-content .main-item .hn .item-status em.moved {
-	color: #666;
-	}
+.brd .main-content .moved a,
+.brd .main-content .closed a
+{
+    font-weight: normal;
+}
 
+.hn .item-status em {
+    color: #999;
+    font-weight: bold;
+}
+
+/*
 .brd .post * {
 	border-color: #999;
 	}
@@ -399,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #000;
 }
 
-.brd .main-category, .brd .main-item {
+.main-category, .main-item, .main-forum {
     border-color: #999999;
 }
 
@@ -481,6 +489,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-content .new .icon {
     border-color: #2B75AD #235E8C #1F537B #266799;
+}
+
+.main-content .moved .icon {
+    border-color: #ACACAC #979797 #898989 #7A7A7A;
 }
 
 
@@ -595,11 +607,11 @@ a:link.permalink, a:visited.permalink {
 a:hover.permalink, a:active.permalink, a:focus.permalink {
 	text-decoration: underline;
 	}
-
+*/
 span.item-starter,
 div.sig-content {
 	color: #999;
-}*/
+}
 
 /* Pun PM
 -------------------------------------------------------------*/
